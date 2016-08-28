@@ -1,0 +1,1040 @@
+@relation sentiment
+
+@attribute tweet string
+@attribute sentiwordnetpositive numeric
+@attribute sentiwordnetnegative numeric
+@attribute sentiwordnetneutral numeric
+@attribute sentiwordnettotal numeric
+@attribute sentiment {positive,negative,neutral}
+
+@data
+'i saw a jeep today and fell in love',0.2727272727272727,0.0,0.2727272727272727,0.7068120459893943,positive
+'i bet the moment danny from the script appeared on the voice  must have crashed',0.1875,0.0,0.125,0.06590406631439162,neutral
+'get quality get performance save money experience   ultrabook available now cheekyspecialcharacter exclamationmarkcharacter',0.5384615384615384,0.0,0.15384615384615385,0.7504481414758203,positive
+'everyone needs in their lives now go go go exclamationmarkcharacter',0.2857142857142857,0.0,0.0,0.023067840056166525,positive
+'why is todd hoeing sounds amazing questionmarkcharacter',0.125,0.0,0.125,0.27272727272727276,positive
+'the new maschine looks incredibly tasty',0.3333333333333333,0.16666666666666666,0.0,0.27830209458778565,positive
+'payleven adds customer loyalty schemes to its mobile payments',0.2222222222222222,0.0,0.1111111111111111,0.09947546415228026,neutral
+'i want one they got em in black too one says love  i thought about u',0.17647058823529413,0.11764705882352941,0.11764705882352941,-0.02852683637009878,positive
+'going hard cause i need to not cause i want too',0.09090909090909091,0.5454545454545454,0.0,-0.7814933203348622,neutral
+'rhinestone encrusted sandals from  design shoelove zappos',0.25,0.0,0.0,0.13780314320552772,neutral
+'reasons why is the most successful social media management tool via',0.16666666666666666,0.16666666666666666,0.16666666666666666,0.6233903228348365,positive
+'a lot people are posting about specific situations in which node may not performance well which is kind of irrelevant to most',0.09090909090909091,0.13636363636363635,0.22727272727272727,-0.9558114180677836,negative
+'can also fuck off',0.0,0.0,0.2,0.0,negative
+'oh i see thanks for the fast answer youre doing a great job exclamationmarkcharacter',0.21428571428571427,0.07142857142857142,0.14285714285714285,0.14226014905761314,positive
+'my  won t open and keeps freezing damnit i know this is you',0.06666666666666667,0.06666666666666667,0.2,-0.1152210481357106,negative
+'the walt disney company clearly has a monopoly on the animated feature film industry owning',0.2,0.05,0.3,0.3568491484184915,positive
+'no queue and yummy doughnuts krispykreme stillthinkitsoverpriced indulgence krispy kreme doughnuts',0.09090909090909091,0.09090909090909091,0.09090909090909091,0.26434282508065643,positive
+'donated usd to typhoon yolanda victims via sagip kapamilya thank you for your help tp the',0.1111111111111111,0.0,0.1111111111111111,0.19593010440254097,positive
+'fishing and a cold  couldn t think of a better way to end my monday',0.23529411764705882,0.058823529411764705,0.23529411764705882,0.3034692933287132,positive
+'i m one hundred and ten million percent in love with',0.15384615384615385,0.0,0.15384615384615385,0.33181204598939423,positive
+'want to make money online questionmarkcharacter questionmarkcharacter',0.2857142857142857,0.0,0.14285714285714285,0.06212492140184224,neutral
+'no give them a raise my love for skittles has come back',0.16666666666666666,0.08333333333333333,0.25,0.24447547128896302,positive
+'here is your  birdy lol d exclamationmarkcharacter',0.0,0.125,0.125,-0.05474452554744526,neutral
+'damn im takin down the studio and it s bummin me the fuck out',0.0,0.14285714285714285,0.2857142857142857,-0.32090451160753397,negative
+'okay here is a very good question and i d like honest answers here indie community  shield or game stick happyspecialcharacter questionmarkcharacter',0.17391304347826086,0.2608695652173913,0.13043478260869565,0.5646846884390772,positive
+'oh that looks useful exclamationmarkcharacter',0.0,0.0,0.2,0.0,positive
+'never using again never had so many issues with a camera were obviously not meant for each other studentproblems exclamationmarkcharacter exclamationmarkcharacter',0.047619047619047616,0.19047619047619047,0.19047619047619047,-1.3148530762167125,negative
+'should one stick to a smartphone or dive into the unknown and give those phablets a try well perhaps we can questionmarkcharacter',0.09090909090909091,0.18181818181818182,0.045454545454545456,-0.017211217033342385,neutral
+'all we can do is see and i like to watch',0.09090909090909091,0.09090909090909091,0.09090909090909091,-8.329767984278508E-4,neutral
+'just have to go into school tomorrow for  s assignment in my hair and parents evening fml',0.16666666666666666,0.05555555555555555,0.2777777777777778,0.06173334373422803,negative
+'has been brilliant so far this season his work rate and positional sense is superb oncourse ynwa backtowinningways',0.3,0.0,0.2,1.2702778773432604,positive
+'free training course starting in neath ymca on worth a rt questionmarkcharacter',0.14285714285714285,0.07142857142857142,0.14285714285714285,0.40026910139649274,neutral
+'my dinner were  half a caprisun i m still hungry',0.0,0.18181818181818182,0.2727272727272727,-0.216991341991342,neutral
+'i pretty much hate i always have problems with this laptop',0.16666666666666666,0.25,0.08333333333333333,-0.23300917101374147,negative
+'massive  in the bag time to start gaming i guess questionmarkcharacter',0.16666666666666666,0.16666666666666666,0.16666666666666666,-0.015882274160920987,neutral
+'how to download free ebooks to your iphone android phone   ipad etc',0.0,0.15384615384615385,0.15384615384615385,-0.06942786830047701,neutral
+'game employee looked late',0.2,0.4,0.2,-2.496907436809817E-4,negative
+'boom joins   as product engineer via',0.14285714285714285,0.0,0.2857142857142857,0.033139290223032684,neutral
+'never drinking  again worst hangover ever thanks lol',0.1,0.3,0.3,-1.2413459411634595,negative
+'party time before the show cheers trader vic s los angeles on yelp exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.125,0.0625,0.1875,-0.03654433793408199,positive
+'i love classic lays and limon lays they are my life',0.2727272727272727,0.0,0.0,0.4471537595666199,positive
+'i just want my  glasses to come',0.4444444444444444,0.0,0.1111111111111111,0.3529736939151881,positive
+'we are pumped up for thirstythursday canadian and  pints thirsty beer brew exclamationmarkcharacter',0.2,0.0,0.2,0.1385722343831478,neutral
+'i m at mercedes benz of delray delray beach fl',0.0,0.0,0.3,0.0,neutral
+'take a look at the great laptop deals we have in our november sale including the  travelmate p only',0.2,0.1,0.2,0.14238886535557377,positive
+'google algorithm updates blogging templates and more in   content this week socialmedia',0.0,0.0,0.38461538461538464,0.0,neutral
+'vehicle but there is a problem with the steering cylinder of three more years of dolamdan trkiyedi not and did not get a clear',0.08333333333333333,0.125,0.20833333333333334,-1.2280831930569596,negative
+'oh happy day the is working exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.2,0.0,0.0,0.49800998708033273,positive
+'i hate when a guy makes sexual advances at me but it s even worse when you re not attracted to them',0.09090909090909091,0.13636363636363635,0.13636363636363635,-1.1852944038929438,negative
+'i don t think it could have gone any better than it did northwest capturesbyclark',0.17647058823529413,0.0,0.17647058823529413,0.6648777843280202,positive
+'to unveil update plans for its smartphones this week still in development',0.0,0.07142857142857142,0.35714285714285715,-0.1488095238095238,neutral
+'i wanna do a graphic project while i have this free day trial w   indesign',0.3125,0.125,0.125,0.15112418080751555,neutral
+'frustrated that is weird with vector based icon fonts',0.0,0.2222222222222222,0.2222222222222222,-0.8181818181818182,negative
+'so far i m not a big fan of  mobile the opt out approach is a pain when converting an existing website',0.21739130434782608,0.08695652173913043,0.17391304347826086,-0.9065354527544265,negative
+'nike move app now available in the ios',0.2,0.1,0.2,0.18031758092764966,neutral
+'my favorite cheap beer pack down drinking a  by coors brewing company exclamationmarkcharacter',0.13333333333333333,0.2,0.26666666666666666,-0.28099292054802943,positive
+'is my fav',0.0,0.0,0.0,0.0,positive
+'fuck this stupid ass  from years ago aint cutting it i m not team anymore',0.0,0.17647058823529413,0.4117647058823529,-1.1016666666666668,negative
+'great quality photos',0.5,0.0,0.0,0.44033573518284524,positive
+'th annual golf tournament the canyons at blackjack ridge sat nov th special thanks to and the canyons at blackjack ridge exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.08,0.0,0.32,0.07568418913426365,positive
+'buy victoria secret sweats for christmas so i know it s real',0.16666666666666666,0.16666666666666666,0.4166666666666667,-0.005892434268552453,neutral
+'or facebook wasn t build in a day so as building a network marketing business why build a business in exclamationmarkcharacter',0.13636363636363635,0.0,0.3181818181818182,0.06067448924653293,neutral
+'i ve renewed my licence key its saying invalid i ve copied pasted still not working your website doesn t help whatsoever',0.09090909090909091,0.18181818181818182,0.09090909090909091,-1.1888123824024466,negative
+'i love that  commercial exclamationmarkcharacter exclamationmarkcharacter',0.375,0.125,0.0,0.37113291472707766,positive
+'tenders with blackened ranch',0.0,0.16666666666666666,0.16666666666666666,-0.025510204081632657,neutral
+'thanks to the onsite technician for is now my friend exclamationmarkcharacter',0.2,0.0,0.26666666666666666,0.13474569875692974,positive
+'new ui looks cheap exclamationmarkcharacter exclamationmarkcharacter',0.14285714285714285,0.14285714285714285,0.0,-0.1500374230374463,negative
+'rt free ebook how to attract customers with twitter vine',0.1,0.1,0.2,0.10910011223480279,neutral
+'stupid internet not working all i wanted to know was how many calories were in a fried egg and you have failed me',0.08,0.08,0.2,-0.9730227023743152,negative
+'it d be cool if somebody brought me',0.3,0.1,0.2,0.09044383047885082,positive
+'mentionatruefriend always',0.0,0.5,0.0,-0.02299605781865966,neutral
+'this whole series of dreamy rainy engagement photos i really do like exclamationmarkcharacter exclamationmarkcharacter',0.21428571428571427,0.07142857142857142,0.14285714285714285,0.5588886931761379,positive
+'buying in',0.0,0.0,0.0,0.0,neutral
+'is the dopest thing ever',0.0,0.16666666666666666,0.16666666666666666,-0.006136817813667934,positive
+'and here you have  model sporting a very large jedward style quiff',0.35714285714285715,0.0,0.21428571428571427,0.25676325878947837,neutral
+'was my best app some years back exclamationmarkcharacter',0.09090909090909091,0.0,0.2727272727272727,0.24000000000000005,positive
+'best of luck today you can do it exclamationmarkcharacter exclamationmarkcharacter',0.3,0.1,0.0,0.3205094461605272,positive
+'you lord are my allotted inheritance and my destiny you control my fate psalm',0.14285714285714285,0.0,0.2857142857142857,0.05206217030622924,positive
+'what   should do for flash',0.16666666666666666,0.3333333333333333,0.0,-0.00989118494390901,neutral
+'how horrid does this look  fail',0.0,0.42857142857142855,0.0,-1.052095028751911,negative
+'but it s a so should be fairly good they usually are',0.15384615384615385,0.0,0.23076923076923078,0.51195897151739,positive
+'absolute pleasure',1.0,0.0,0.0,0.2541045265133676,positive
+'last google search was this morning to download browser sick of ads on google chrome browser',0.0,0.23529411764705882,0.29411764705882354,-0.9632149368191731,negative
+'a young houston hard header exclamationmarkcharacter',0.16666666666666666,0.16666666666666666,0.3333333333333333,-0.038487116539283474,neutral
+'sucks',0,0,1,0,negative
+'i want some off the conveyer',0.1111111111111111,0.0,0.1111111111111111,0.04599211563731932,positive
+'last rt hahaha true enough',0.4,0.2,0.0,0.17344905072924727,positive
+'everything you do online can will be used against you  cocacola',0.08333333333333333,0.08333333333333333,0.08333333333333333,0.016195502489195587,negative
+'yes it works thank you very much for help xo d exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.17647058823529413,0.058823529411764705,0.11764705882352941,0.322907060711237,positive
+'photo phantom ladies image used as reference and research by nick knight for',0.0,0.14285714285714285,0.35714285714285715,-0.2681709683421304,neutral
+'remember that time we bought an a c hot sauce and pop tarts questionmarkcharacter',0.14285714285714285,0.07142857142857142,0.21428571428571427,0.15216964571378921,neutral
+'i just used shazam',0.1,0.0,0.1,0.051686763311204455,neutral
+'i want you as my birthday gift soon lookingforward nextyear laptop tech gadget exclamationmarkcharacter exclamationmarkcharacter',0.11764705882352941,0.058823529411764705,0.29411764705882354,0.04872934191469158,positive
+'people call me names like fat ugly ghetto ratchet but i m sorry i m not perfect i m sorry this i',0.08695652173913043,0.21739130434782608,0.30434782608695654,-1.2953737563749126,negative
+'the new lens shade of aviators matches my hair meant to be',0.25,0.08333333333333333,0.08333333333333333,0.1502313656463648,neutral
+'can you send me a box of these exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter questionmarkcharacter',0.16666666666666666,0.0,0.0,0.03718833248168475,neutral
+'updates play services with mobile ads geofencing google and api improvements but drops froyo support',0.13333333333333333,0.0,0.2,0.02978131152731711,neutral
+'a girl just walked in to publix wearing knee high sequined',0.25,0.08333333333333333,0.16666666666666666,-0.29336892887893484,neutral
+'table to json example is on codepen exclamationmarkcharacter',0.1111111111111111,0.0,0.1111111111111111,0.006898734933282365,neutral
+'hi do you offer work experience cheekyspecialcharacter questionmarkcharacter',0.125,0.125,0.25,-0.007324269621367511,neutral
+'know anyone for this job senior  engineer in austin tx job questionmarkcharacter',0.13333333333333333,0.13333333333333333,0.26666666666666666,0.21346076660341906,neutral
+'are you trying to register via help lightroom registration or from a different url if so which one questionmarkcharacter questionmarkcharacter',0.1,0.0,0.2,0.4001049455594911,neutral
+'the stephen mccann daily is out stories via exclamationmarkcharacter',0.0,0.1111111111111111,0.1111111111111111,-0.25,neutral
+'investing is attempting to increase your real wealth in terms of how many relative goods you can buy not relative to  justsaying exclamationmarkcharacter',0.041666666666666664,0.16666666666666666,0.20833333333333334,-0.9143717619006603,neutral
+'chuffed to see becoming a technology partner for google compute engine gce',0.16666666666666666,0.0,0.4166666666666667,0.1418393952228632,neutral
+'i going lunch to  p cheekyspecialcharacter',0.125,0.0,0.375,0.005960712191791387,neutral
+'are my favorite',0.0,0.2727272727272727,0.2727272727272727,0.2408647776686772,positive
+'who s ready for tomorrow purephotography',0.16666666666666666,0.16666666666666666,0.16666666666666666,0.019656154183092425,neutral
+'is there a way to force a virtual   refresh in nvda anybody knows questionmarkcharacter questionmarkcharacter',0.25,0.0625,0.0625,0.23444100081283079,neutral
+'center different elements in   do you want to add some text to a photo or picture or',0.2631578947368421,0.15789473684210525,0.10526315789473684,-0.0264303528564004,neutral
+'working with lucidchart diagrams as app very cool and free for education exclamationmarkcharacter',0.25,0.0625,0.0625,0.34234708094243066,positive
+'are people still in   questionmarkcharacter questionmarkcharacter questionmarkcharacter',0.0,0.125,0.125,-0.1488095238095238,neutral
+'other shit i hate fanboys it s your only browser is  and you just got blu ray technology that s all cheekyspecialcharacter',0.04,0.2,0.24,-0.9306302855632059,negative
+'so grateful for my',0.2,0.0,0.2,0.20833333333333334,positive
+'avg avg customer support via license is not being accepted help exclamationmarkcharacter',0.16666666666666666,0.08333333333333333,0.16666666666666666,-0.42232388823297906,neutral
+'game employee looked late',0.2,0.4,0.2,-2.496907436809817E-4,neutral
+'these are fantastic exclamationmarkcharacter',0.25,0.0,0.0,0.24104683195592289,positive
+'this little girl is today four yay for   celebrations love her the pure joy she bring to life happyspecialcharacter exclamationmarkcharacter',0.2857142857142857,0.09523809523809523,0.047619047619047616,0.31662177608596265,positive
+'its embarrassing how much i fancy and it would still be the same if he drove a micra awwwww exclamationmarkcharacter',0.09523809523809523,0.19047619047619047,0.047619047619047616,-0.8255722354134365,neutral
+'i have a few more things to add to that list exclamationmarkcharacter',0.16666666666666666,0.0,0.3333333333333333,0.07990147287587743,neutral
+'p f chang s food is really horrible yess i would never go back that s why it s so cheap',0.09523809523809523,0.19047619047619047,0.3333333333333333,-1.0149021456587157,negative
+'one of my all time favorite psych moments called my sister when i saw this to tell her how funny i',0.19047619047619047,0.0,0.09523809523809523,0.28302272859902344,positive
+'good read on search',0.4,0.0,0.2,0.7280910970069034,positive
+'how s it going every one big news we finally heard back from world records and we are now defiantly the',0.22727272727272727,0.0,0.18181818181818182,0.24203288453070357,neutral
+'rs good car for an icy day also very fast and red and fast',0.2,0.06666666666666667,0.26666666666666666,0.49348859556565666,positive
+'it s getting crankier and crankier unbelievable',0.058823529411764705,0.058823529411764705,0.17647058823529413,-0.11742660421566878,negative
+'ours   check it out tour schedule exclamationmarkcharacter exclamationmarkcharacter',0.1111111111111111,0.0,0.3333333333333333,0.016092309826651774,neutral
+'i m happy that one of the world s tech giants are getting involved in this relief operation as an i already did my part',0.1111111111111111,0.0,0.2222222222222222,0.6802594566895619,positive
+'follow me please it would really make my day x exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.35714285714285715,0.0,0.07142857142857142,0.7059353375273194,positive
+'sorry bro no hard feelings for you it s just my many other people s anger for for their super slow updates',0.13636363636363635,0.22727272727272727,0.18181818181818182,-0.08427770929600217,negative
+'is there a  app coming any time soon questionmarkcharacter',0.09090909090909091,0.09090909090909091,0.2727272727272727,-0.0450477392946262,neutral
+'is shit now cuz of him',0.14285714285714285,0.14285714285714285,0.0,-0.14129793359208437,negative
+'an example of how   is faster than php interesting nodejs annoyedspecialcharacter',0.09090909090909091,0.045454545454545456,0.22727272727272727,0.3606402315319218,positive
+'griffith j griffith observatory new favorite place exclamationmarkcharacter',0.375,0.0,0.5,0.24552284186477813,positive
+'sour  make the world go around',0.2857142857142857,0.14285714285714285,0.2857142857142857,-0.2584398028497315,neutral
+'it was causing a bit of trouble',0.0,0.2857142857142857,0.0,-0.21390487221583143,negative
+'it sucks man no windows tablets in india other than wt d hell is n others thinking nuts',0.05555555555555555,0.16666666666666666,0.16666666666666666,-0.5825110284104438,negative
+'ever played jersey devil on the original its such a fun old game exclamationmarkcharacter questionmarkcharacter',0.1875,0.25,0.0625,-0.19779383598278458,positive
+'yeah i fucking know is not responding fuck you',0.09090909090909091,0.09090909090909091,0.2727272727272727,-0.587262764825313,negative
+'ii just won a m coupe in csr racing try it for free exclamationmarkcharacter exclamationmarkcharacter',0.125,0.0625,0.1875,0.07209644245888491,neutral
+'shit balls',0.0,0.5,0.0,-0.1569462197321738,negative
+'is   available in the uae questionmarkcharacter',0.125,0.0,0.25,0.18000000000000002,neutral
+'testing   i m basically a robot right now',0.4,0.0,0.4,0.6237261158697839,neutral
+'live quick tips how to quickly add effects to drum rack chains',0.15384615384615385,0.15384615384615385,0.3076923076923077,-0.08939557100710893,neutral
+'how s about you lay off terry you fucking cunt he s the sweetheart of albert square he just wants to be mates cunt exclamationmarkcharacter exclamationmarkcharacter',0.23076923076923078,0.038461538461538464,0.15384615384615385,-0.2694935139961599,negative
+'the dress lamps are every inch of amazing and i want one right now',0.26666666666666666,0.06666666666666667,0.06666666666666667,0.39682506627817166,positive
+'how s messy password breach can spill to sites like',0.0,0.2,0.2,-0.8818870523415978,negative
+'i ve just broadcasted a video please watch it now am exclamationmarkcharacter',0.25,0.0,0.16666666666666666,0.3673350494512939,neutral
+'i knew  whored out sonic to nintendo but i didn t think they d go this far',0.16666666666666666,0.05555555555555555,0.1111111111111111,-0.013079900023466099,negative
+'are you going to upgrade the messenger to suit ios questionmarkcharacter',0.18181818181818182,0.0,0.09090909090909091,0.03102111800228923,neutral
+'rt th photo attends the bafta la britannia awards exclamationmarkcharacter',0.0,0.0,0.18181818181818182,0.0,neutral
+'wohooo always amazing  and motor fighting happyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.14285714285714285,0.07142857142857142,0.07142857142857142,0.3330645482419464,positive
+'i think if you re a true petrol head everybody s favorite super car is the ',0.2777777777777778,0.0,0.2222222222222222,0.577356274369921,positive
+'help bad  experience nd new machine dies and even worse warrenty customer service grief what to do cheekyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter questionmarkcharacter questionmarkcharacter',0.125,0.16666666666666666,0.20833333333333334,-0.8671651967211124,negative
+'is yet another spyware browser that allows url s to contain ip addresses because ms is working for add servers not you cheekyspecialcharacter',0.12,0.12,0.24,-0.8324909548394311,negative
+'that morning run which route tablemountain has kick ass views ctcityinsiders questionmarkcharacter',0.0,0.08333333333333333,0.3333333333333333,-0.007112857336404281,positive
+'cool so once again and doesn t work and this stupid school doesn t know how to update  wtf questionmarkcharacter',0.16666666666666666,0.041666666666666664,0.375,-0.22591005600349556,negative
+'should probably find some real food to eat that s not cheetos or',0.14285714285714285,0.21428571428571427,0.14285714285714285,-0.6356280771733549,positive
+'awsome i started watching her a few months ago and i luv her xxxx happyspecialcharacter',0.0,0.0,0.13333333333333333,0.0,positive
+'love how my dad works a frito lay',0.125,0.125,0.25,-0.21364249946515124,positive
+'fashion lady new image via fashion',0.6666666666666666,0.16666666666666666,0.0,0.26845827528709,neutral
+'that is worse than barbaric it has stopped',0.1111111111111111,0.1111111111111111,0.1111111111111111,-0.42099999999999993,negative
+'how to create a   date picker like google analytic i have received many phpgang',0.26666666666666666,0.0,0.2,0.11347296996266386,neutral
+'the customer repair service impressed me once again',0.0,0.0,0.75,0.0,positive
+'are you over and  to refresh your driving skills book in for a wiser driver course held in november december questionmarkcharacter',0.045454545454545456,0.045454545454545456,0.22727272727272727,0.10049634951125662,neutral
+'do you know of any projects with   questionmarkcharacter',0.09090909090909091,0.09090909090909091,0.09090909090909091,0.02006486315339586,neutral
+'ff workshops favs',0.0,0.0,0.0,0.0,positive
+'i am fall in love with yeay finnally done dizzy happyspecialcharacter exclamationmarkcharacter',0.14285714285714285,0.14285714285714285,0.07142857142857142,-0.20370408078872376,positive
+'thought you might be thanks exclamationmarkcharacter',0.5,0.0,0.0,0.09300855135189343,positive
+'if that s a joke it was pretty hilarious xd serious funnydude salts happyspecialcharacter',0.14285714285714285,0.14285714285714285,0.07142857142857142,0.06386617782189422,positive
+'saturday shout outs to',0.0,0.0,0.5,0.0,neutral
+'thats the exact page i want click link wait redirect mobile optimised homepage you exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.21052631578947367,0.0,0.3684210526315789,0.08910164287375916,positive
+'dude great show last night at surf festival peace exclamationmarkcharacter',0.2727272727272727,0.18181818181818182,0.36363636363636365,0.07241948660209968,positive
+'rt coming to a barneys new york near you gold jay z followtheteam',0.07692307692307693,0.07692307692307693,0.15384615384615385,0.12674214555740299,neutral
+'my first shot with awesome cam cc exclamationmarkcharacter exclamationmarkcharacter',0.18181818181818182,0.0,0.2727272727272727,0.7559686882446609,positive
+'bought a new wallet from',0.16666666666666666,0.0,0.16666666666666666,0.13057482186051292,neutral
+'great talent high level sponsorship great acumen performance predictability can take you far as a sam says samaweb',0.3888888888888889,0.1111111111111111,0.1111111111111111,0.19779748516042317,positive
+'damn the equipment looks so damn bloody cool stacks of  violins his piano his own orchestra worldclass rockstar',0.1,0.25,0.2,-0.8579374441865895,positive
+'new tesla supercharger station opens in rocky mount this morning  inc nasdaq tsla opened its',0.058823529411764705,0.058823529411764705,0.47058823529411764,-0.11161985215234294,neutral
+'node v stable has been released js nodejs javascript',0.1111111111111111,0.0,0.1111111111111111,0.026511432178426147,neutral
+'also it is literally so scary to look at my   after may so empty',0.0625,0.125,0.375,-0.5945305129351011,negative
+'damn did already ruin that was quick',0.14285714285714285,0.2857142857142857,0.14285714285714285,-0.2880610075139468,negative
+'i never thought i d be falling in love with feelingcreative designs fun exclamationmarkcharacter',0.26666666666666666,0.13333333333333333,0.06666666666666667,-0.14714909962840927,positive
+'loool i used under settings it felt good i can t lie',0.15384615384615385,0.0,0.15384615384615385,0.4930910970069034,positive
+'what the fuck is wrong with',0.0,0.2222222222222222,0.1111111111111111,-0.4755305791138102,negative
+'btw i ate jalapeo poppers from last night evidently not a wise choice',0.13333333333333333,0.26666666666666666,0.06666666666666667,0.0697703591617433,negative
+'pleeeeease keep that  denim jacket on sale until friday',0.1,0.2,0.3,-0.009998890547400175,neutral
+'fail video  z gets wrecked in drift attempt',0.0,0.1111111111111111,0.4444444444444444,-0.16249648860592575,negative
+'i liked a video love minus zero no limit biabh sessions',0.09090909090909091,0.09090909090909091,0.18181818181818182,0.20614008326092692,positive
+'thanks that solved it exclamationmarkcharacter',0.2,0.0,0.0,0.04545454545454546,positive
+'i m at j n house spb',0.0,0.0,0.5714285714285714,0.0,neutral
+'riding boots i have a pair and i love them exclamationmarkcharacter',0.23076923076923078,0.0,0.0,0.3610796566497585,positive
+'rip laptop  laptops are useless i have one and it s a heap of junk',0.0625,0.1875,0.1875,-0.5980724790221276,negative
+'i received k about plato n topics from thanks exclamationmarkcharacter',0.1,0.0,0.3,0.04545454545454546,positive
+'while you re suffering so am i the  i m in is playing awful awful slow jam christmas music',0.045454545454545456,0.22727272727272727,0.18181818181818182,-1.304722327789163,negative
+'why does my  randomly turn on when i try to sleep',0.25,0.0,0.08333333333333333,0.42513991323507416,neutral
+'i love hollister and exclamationmarkcharacter',0.16666666666666666,0.0,0.0,0.26363022780757606,positive
+'when the app for   coming questionmarkcharacter',0.0,0.0,0.25,0.0,neutral
+'i m liking more than i should',0.1,0.0,0.3,0.25,positive
+'i swear i will own a pair of  s one day',0.3076923076923077,0.0,0.15384615384615385,0.17027678337957017,neutral
+'just pushed version of lazy js plus created a little changelog like every responsible oss author should https t co fvx qsfgom happyspecialcharacter annoyedspecialcharacter',0.08333333333333333,0.041666666666666664,0.20833333333333334,-0.003313236688795518,neutral
+'raps i m super i love to play i love it when goku gets beat by omega exclamationmarkcharacter',0.2,0.0,0.2,0.8296830913113569,positive
+'computer working at a snail pace',0.125,0.0625,0.375,-0.03980929792293174,negative
+'my brother wants the new because walter white had one goodlord',0.25,0.0,0.08333333333333333,0.16120694219653484,neutral
+'looked at the clock at both times today exclamationmarkcharacter exclamationmarkcharacter',0.2,0.0,0.1,0.34090909090909094,neutral
+'that tech the halls commercial for   quickly became one of the more annoying things i ve heard recently mute',0.0,0.15,0.25,-0.7263636363636363,negative
+'will make my business more successful and my tourists happier exclamationmarkcharacter',0.25,0.0,0.125,0.7176824933225247,positive
+'its not funny i blame the',0.14285714285714285,0.2857142857142857,0.0,-0.9647478433974785,negative
+'is all clean lines beautiful typography and no advertising heres on choosing ff tisa',0.14285714285714285,0.0,0.14285714285714285,0.8541496673189621,positive
+'the only good thing about mondays is chick fil a',0.1,0.2,0.1,0.4424971323283175,positive
+'sba offers free small biz cybersecurity course free enterprise',0.1111111111111111,0.3333333333333333,0.3333333333333333,-0.16291838320046378,neutral
+'i just used shazam to tag',0.2,0.06666666666666667,0.06666666666666667,0.48404353517415505,neutral
+'one of the best document scanners i own is my smartphone',0.15384615384615385,0.0,0.23076923076923078,0.2737789249248405,positive
+'fantastic body model oluchi in bikini vibesdotcom exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.2,0.0,0.2,0.2704664949860388,positive
+'wow wow wow very nice feature',0.3333333333333333,0.5,0.16666666666666666,0.2490823864964698,positive
+'for android apk free download uc internet browser releases its version available as f',0.0625,0.1875,0.1875,-0.3932157470883558,neutral
+'developing curved iphone screens from',0.0,0.0,0.3333333333333333,0.0,neutral
+'amazing new tablet  tablet great for photographers and video editors',0.45454545454545453,0.0,0.09090909090909091,0.6118252700359932,positive
+'boy london',0.5,0.0,0.5,0.08953168044077137,neutral
+'ladies if you can t cook you better live close to a chick fil a if you wanna keep me interested exclamationmarkcharacter',0.18181818181818182,0.045454545454545456,0.13636363636363635,1.089123094700002,neutral
+'i just want a chicken sandwhich tbh but i think ill go to and get one after work happyspecialcharacter',0.3,0.1,0.0,-0.4254151378523208,positive
+'auto news today believe exclamationmarkcharacter exclamationmarkcharacter',0.5,0.0,0.16666666666666666,0.17415007619061634,neutral
+'today shopping at klcc',0.2,0.0,0.2,0.06818181818181819,neutral
+'thank you i created a supportticket on this',0.0,0.0,0.2,0.0,positive
+'i go to literally every single day',0.3333333333333333,0.1111111111111111,0.2222222222222222,-0.031566491948351066,neutral
+'mms is not working today please fix it exclamationmarkcharacter',0.2222222222222222,0.2222222222222222,0.0,-0.4335610630076894,negative
+'find out   antivirus full reviews',0.3333333333333333,0.0,0.0,0.02275949393820446,neutral
+'i love my old standby  mx',0.42857142857142855,0.0,0.14285714285714285,0.6167014412731882,positive
+'for android was my best app some years back lol exclamationmarkcharacter',0.1111111111111111,0.0,0.16666666666666666,0.27386787451048666,positive
+'i can t wait exclamationmarkcharacter exclamationmarkcharacter',0.0,0.0,0.2857142857142857,0.0,positive
+'dodge has revealed new scat package state kits with  performance parts at the sema motor s',0.23529411764705882,0.0,0.29411764705882354,0.2860432743208819,neutral
+'customer service reps just say i m out of luck well you re out of luck when i never buy again',0.2727272727272727,0.045454545454545456,0.22727272727272727,-0.023812832220754407,negative
+'you all know why i want this shirt don t make me say it',0.2857142857142857,0.0,0.21428571428571427,0.10377701229626114,neutral
+'step by step   guide for realtime monitoring and scaling openshift by red hat good read',0.17647058823529413,0.11764705882352941,0.17647058823529413,0.5119015118432287,neutral
+'kaplan builds online education platform kapx with google app engine customer',0.09090909090909091,0.0,0.36363636363636365,0.16017323607799133,neutral
+'everyone wants to be a platform these days is a great example of consumerization of the enterprise',0.21052631578947367,0.0,0.15789473684210525,0.2578710521096075,positive
+'thank you for giving me k about community exclamationmarkcharacter',0.0,0.0,0.3333333333333333,0.0,positive
+'white people love sneakers',0.5,0.0,0.3333333333333333,0.4095064647916711,positive
+'remember that time we had to crack the seal and pour a brand new  bottle down the toilet',0.3157894736842105,0.15789473684210525,0.05263157894736842,0.2632048897367748,neutral
+'change buttons background i just got my g and love it i use launcher and the homes b exclamationmarkcharacter questionmarkcharacter',0.21739130434782608,0.0,0.2608695652173913,0.3495099270747953,positive
+'pilates is my new favorite thing who knew it was so much core balance work great cross training questionmarkcharacter',0.3684210526315789,0.10526315789473684,0.10526315789473684,0.7167327854145655,positive
+'the dress lamps are every inch of amazing and i want one right now',0.26666666666666666,0.06666666666666667,0.06666666666666667,0.39682506627817166,positive
+'flossed and brushed and then ate a  i hate myself i deserve to die',0.0625,0.1875,0.125,0.28444889523607153,negative
+'how google plans to make nexus more power efficient',0.3333333333333333,0.0,0.3333333333333333,0.12067510141337282,neutral
+'verizon wireless is bad bad customer service more than full days to fix an issue it s not fixed exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09090909090909091,0.18181818181818182,0.2727272727272727,-1.508832948108501,negative
+'i received k about and laptops from labdoo in switzerland from thanks exclamationmarkcharacter',0.07142857142857142,0.0,0.14285714285714285,0.04545454545454546,positive
+'can i just own everything from',0.14285714285714285,0.0,0.14285714285714285,0.051686763311204455,neutral
+'is one of the best things ever invented',0.1111111111111111,0.0,0.2222222222222222,0.24000000000000005,positive
+'rt ceo ursula burns explains our services led strategy via cheekyspecialcharacter',0.09090909090909091,0.0,0.2727272727272727,0.08333333333333333,neutral
+'fix urself bitch',0.0,0.6666666666666666,0.0,-0.4595711640177905,negative
+'launches playstation app for ios and android',0.0,0.0,0.125,0.0,neutral
+'fixing privacy settings thanks to an paralegal for alerting me to this  annoyedspecialcharacter',0.07407407407407407,0.037037037037037035,0.2222222222222222,0.2823766865737669,positive
+'death wish',0.5,0.5,0.0,0.11490426384599176,negative
+' hello you are yummy',0.2,0.0,0.0,0.5,positive
+'broke new ground by swearing at a stranger in public at no less',0.0625,0.25,0.25,-1.2197706150771828,negative
+'vehicle but there is a problem with the steering cylinder of three more years of dolamdan trkiyedi not and did not get a clear',0.08333333333333333,0.125,0.20833333333333334,-1.2280831930569596,neutral
+'fyi mexican  lists sugar on the ingredient list but the laboratory did not detect any sucrose',0.0,0.05555555555555555,0.5,-0.625,neutral
+'rookie mistake from',0.0,0.5,0.0,-0.6590909090909092,negative
+'setting up active directory federated services for single sign on with is as fun as it sounds',0.13636363636363635,0.13636363636363635,0.18181818181818182,-0.053243504183247026,positive
+'i make a variation of this with dark chocolate liquor no cream and split a chocolate covered cherry on the rim',0.09523809523809523,0.19047619047619047,0.19047619047619047,-0.014526738163337114,neutral
+'free calls',0.0,0.5,0.0,-0.02776120163381035,neutral
+'my addiction to  is really bad',0.2222222222222222,0.1111111111111111,0.2222222222222222,0.054035132103161077,negative
+'i m gonna watch this movie with my eyes closed',0.1,0.0,0.3,0.25,neutral
+'happy bornday homie can t stop laughing at your halloween',0.18181818181818182,0.0,0.2727272727272727,0.483656106583958,positive
+'detroit reuters  inc forecast a weaker than expected fourth quarter profit and posted third qu cheekyspecialcharacter',0.05555555555555555,0.05555555555555555,0.3333333333333333,0.15879889411851758,neutral
+'using big data and analytics across industries to acquire grow and retail customers',0.07692307692307693,0.0,0.15384615384615385,0.05509160817140707,neutral
+'is only in of u s households today brand is a strong brand well over billion retail',0.2631578947368421,0.05263157894736842,0.10526315789473684,0.5166294407935748,positive
+'the cabin will make my business more successful and my tourists happierm games exclamationmarkcharacter',0.1875,0.0,0.1875,0.6629379677750794,positive
+'accusing twitter of infringing three patents',0.0,0.0,0.14285714285714285,0.0,neutral
+'excite write would be a perfect choice of a tablet for me but then no release in brasil thank you for not letting me waste money',0.18518518518518517,0.07407407407407407,0.18518518518518517,-0.14153692985745026,positive
+'not being  at all fuck this shit a nigga dont care about me so ion give a fuck about a nigga',0.0,0.18181818181818182,0.3181818181818182,-0.8147997046816315,negative
+'hayi susqhela rt if you can t find your name on a you can create a virtual one on',0.19047619047619047,0.0,0.14285714285714285,0.279889407695364,neutral
+'three  and orange juice dinner looks good tonight mayne',0.18181818181818182,0.0,0.2727272727272727,0.5745098297892726,positive
+'it is great rightexclamationmarkcharacter questionmarkcharacter questionmarkcharacter',0.13333333333333333,0.0,0.13333333333333333,0.19281000962181033,positive
+'great article rt leap into fueling w natgas',0.125,0.0,0.375,0.11210444266583842,positive
+'yeah they posted a pic of my',0.0,0.0,0.25,0.0,neutral
+'dell venue pro wifi tablet   quad core windows office shipping',0.18181818181818182,0.0,0.7272727272727273,0.05909036243573374,neutral
+'goblin simple and beautiful golang testing framework now supports asynchronous testing go check it out annoyedspecialcharacter exclamationmarkcharacter',0.30434782608695654,0.08695652173913043,0.21739130434782608,0.8655011503466291,positive
+'breaking news steve confirms storm will not be coming to uk',0.18181818181818182,0.18181818181818182,0.09090909090909091,-0.6880043642019585,neutral
+'i ve got three bags of sweets and candies and  and i feel ready to study hopeless',0.1,0.1,0.1,-0.33674199399017335,neutral
+'how to make twitter   menu dropdown on hover rather than click',0.16666666666666666,0.16666666666666666,0.25,-0.02563756619552882,neutral
+'just got off an hour and a half phone call with michelle after using  smartcloud to complete our powerpoint mgmt k',0.13636363636363635,0.0,0.18181818181818182,0.32077652455948397,neutral
+'would like to commend for their quick concise and friendly help tonight via chat help great exclamationmarkcharacter',0.2777777777777778,0.16666666666666666,0.1111111111111111,0.4067250782628936,positive
+'question maintenance repairs open question air recirculation broken hi everyone i have a  questionmarkcharacter',0.13333333333333333,0.2,0.13333333333333333,0.002925231169468037,neutral
+'finishes one two at texas nascar nscs',0.0,0.0,0.2222222222222222,0.0,neutral
+'okay better be there exclamationmarkcharacter',0.6,0.0,0.2,0.99220120784382,positive
+'ive said it once i am saying it again i love so much',0.14285714285714285,0.0,0.21428571428571427,0.37937705216149636,positive
+'the new adventure time game comes out on im excited exclamationmarkcharacter exclamationmarkcharacter',0.23076923076923078,0.07692307692307693,0.0,0.45655327443802585,positive
+'today marks one month of shooting published work with the very happy for it and its my first exclamationmarkcharacter',0.17391304347826086,0.0,0.2608695652173913,0.6428090757699878,positive
+'customink is looking for summer internship job',0.0,0.1,0.3,-0.03213823428563395,neutral
+'even my desktop of my window flicker of my files exclamationmarkcharacter',0.2,0.06666666666666667,0.2,0.0459679410416967,neutral
+'a successful shopping day at good job anita and kids  centre exclamationmarkcharacter exclamationmarkcharacter',0.25,0.0625,0.0625,1.0946246527983732,positive
+'thanks to  for his pledge to belle roscoe thrilled you purchased album enjoy babe x exclamationmarkcharacter',0.16666666666666666,0.1111111111111111,0.16666666666666666,0.2744701113841495,positive
+'sounds like an amazing plan to me happyspecialcharacter',0.1111111111111111,0.0,0.1111111111111111,0.27272727272727276,positive
+'ap  says three employees were injured wednesday when an aluminum casting press failed at its factory in fremont calif',0.0,0.047619047619047616,0.2857142857142857,-0.012113978894753607,neutral
+'thanks to sheera for telling me about   and their effort to donate of their net',0.1875,0.0,0.0625,0.6874613481756339,positive
+'im using  but next time ill try ',0.2,0.1,0.2,-0.4418768585131354,neutral
+'i might as well have coffee while i m at it  and coffee makes areen very happy',0.2222222222222222,0.0,0.16666666666666666,0.8686142815135642,positive
+'rip laptop   laptops are useless i have one and it s a heap of junk',0.0625,0.1875,0.1875,-0.5980724790221276,negative
+'you lost the game too',0.0,0.4,0.0,-0.08730714146119425,negative
+'adobe vid on using illustrator files in prem pro vector graphics are the theoretical design not the pixels that make up that design',0.2608695652173913,0.043478260869565216,0.17391304347826086,-0.43316932179328244,neutral
+'perfectly projected zac stacy s points in my league not sure i ve seen that before',0.11764705882352941,0.11764705882352941,0.11764705882352941,-0.2320559610705596,positive
+'thanks dude i love using phonegap angularjs knockoutjs less sass  and more i m not a freelancer at the mo exclamationmarkcharacter',0.09090909090909091,0.13636363636363635,0.22727272727272727,-0.8659152267378785,positive
+'i used to be obsessed with flowerbomb by viktor rolf but now',0.16666666666666666,0.0,0.08333333333333333,0.04951616065057606,positive
+'live tutorial using the new glue compressor',0.25,0.0,0.375,0.1453444711322024,neutral
+'cents a cookie and cents a',0.0,0.0,0.14285714285714285,0.0,neutral
+'wtf dam u   exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.0,0.0,0.2,0.0,negative
+'it s cool doe is serving breakfast already mcmuffins over chicken any day lol exclamationmarkcharacter',0.17647058823529413,0.058823529411764705,0.23529411764705882,0.20937674938386316,positive
+'mad respect to',0.25,0.25,0.0,0.18739407007442274,positive
+'is the best',0.16666666666666666,0.0,0.3333333333333333,0.24000000000000005,positive
+'it seems   is going to be a tad harder to learn to use than i expected cheekyspecialcharacter',0.21052631578947367,0.05263157894736842,0.05263157894736842,0.018995202207572698,negative
+'holy shit exclamationmarkcharacter exclamationmarkcharacter',0.0,0.25,0.25,-0.1569462197321738,negative
+'wow i hate',0.0,0.5,0.0,-0.375,negative
+'beauty is what s on the inside of a can of',0.08333333333333333,0.0,0.08333333333333333,0.36000000000000004,positive
+'very good day',1.0,0.0,0.0,0.5784885955656567,positive
+'never buying your products ever again i would not even recommend it to my customers shittiest customer service from',0.1,0.1,0.2,-0.9930048661800487,negative
+'just purchased my second my first one died after years thank you for making such a great product',0.1,0.05,0.3,0.03879120597704287,positive
+'i don t think that has any interest in solving this issue please do some fairplay',0.25,0.0625,0.125,0.3602609368289453,neutral
+'now i want',0.3333333333333333,0.16666666666666666,0.0,-0.34155714530975734,neutral
+'cant wait to download all the apps and use dem nd at last i like more app and dat iz  xms',0.045454545454545456,0.09090909090909091,0.18181818181818182,-0.08541591381493277,positive
+'it s physically painful to leave bc i just wanna lay with him until i fall asleep sadspecialcharacter',0.05555555555555555,0.2222222222222222,0.16666666666666666,-1.0978100797203574,neutral
+'fantastic article   inside actiondispatch and rack via',0.1,0.1,0.2,0.23122020125224493,positive
+'got the bbq burgers for they done fucked up all over',0.15384615384615385,0.0,0.07692307692307693,0.05971435726237395,negative
+'the freeze machine at  is down so im pissed holy shit me and went today they said they didnt have one',0.13043478260869565,0.13043478260869565,0.17391304347826086,-0.11365087497056403,negative
+'node up and running by is currently the most thorough  tutorial i ve read thanks man',0.2777777777777778,0.0,0.2777777777777778,1.1308387170104215,positive
+'what s with the ridiculously large ad at the top of my tl so annoying exclamationmarkcharacter questionmarkcharacter',0.1111111111111111,0.1111111111111111,0.2222222222222222,-0.2948509786732927,negative
+'not sure how can recommend as its favorite antivirus given how clingy and annoying it is to uninstall also too verbose exclamationmarkcharacter',0.13043478260869565,0.13043478260869565,0.043478260869565216,-0.7571057288210573,negative
+'rt  beta now informs you about which tab that unwanted music is coming from',0.125,0.0625,0.25,-0.08158223191828673,neutral
+'the night before he told us he was leaving my mother for that stupid skank ibooks kobo  yaromance',0.0,0.21052631578947367,0.10526315789473684,-0.8543647356292444,negative
+'we missssss you so so much  season kicks off soon',0.16666666666666666,0.08333333333333333,0.16666666666666666,0.050746824353920306,positive
+'robust testing of course meaning more time to geek out with them  s own servers are brilliant exclamationmarkcharacter',0.15789473684210525,0.10526315789473684,0.15789473684210525,0.24136801352109616,positive
+'you need to make the app available on too i love my phone exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.16666666666666666,0.1111111111111111,0.1111111111111111,0.3551711968374051,positive
+'owners are confused and lost they re direction in life',0.18181818181818182,0.0,0.09090909090909091,0.00603491157952571,negative
+'thank god for  time for a run justdoit',0.2222222222222222,0.0,0.3333333333333333,0.09602204950243533,positive
+'the sunny center was great before but now its even better games exclamationmarkcharacter',0.4,0.0,0.06666666666666667,1.2208493009795942,positive
+'i never know why people like  this is one of the worst site design i am introduced with failed',0.1,0.1,0.1,-0.9077929549531187,negative
+'living self employed online the manual they forgot to give you',0.0,0.08333333333333333,0.16666666666666666,-0.02444957148527737,neutral
+'will the be compatible with questionmarkcharacter',0.2222222222222222,0.0,0.0,0.4770496926923048,neutral
+'touch screen glass digitizer lens for iconia tab a black side tools ebooks',0.06666666666666667,0.2,0.3333333333333333,-0.24988455534838216,neutral
+'better customer experience comes from intimate insights and actions cheekyspecialcharacter',0.2,0.0,0.2,0.9606653574601394,positive
+'partners with local libraries to offer free online training',0.1,0.1,0.2,0.26390546503285633,neutral
+'ampera greener than shrek and it ll save you pounds at the pumps',0.07142857142857142,0.0,0.0,0.11449739487510865,positive
+'better late than never fun fact for the day  is the world s most profitable car manufacturer',0.2777777777777778,0.1111111111111111,0.2777777777777778,0.42129848669123254,positive
+'hit the store today and get trident white gum or browse us online for different flavours',0.3125,0.125,0.125,0.3036547667441291,neutral
+'not happy that is playing the arena next year such an awful venue to get to might try the instead never been there exclamationmarkcharacter exclamationmarkcharacter',0.11538461538461539,0.15384615384615385,0.19230769230769232,-1.0864190352559862,negative
+'day one unable to download apps day two unresponsive capacitive buttons day three random reboots  a',0.23529411764705882,0.11764705882352941,0.058823529411764705,-0.8378984134146492,negative
+'i recommend you to use visit the links from your phone',0.10526315789473684,0.0,0.3157894736842105,0.09900415167676337,positive
+'thanks for asking do the steps at fix the problem give them a try and let us know how it goes questionmarkcharacter',0.13043478260869565,0.21739130434782608,0.043478260869565216,-0.39294165019653,positive
+'amp feature on sucks',0.0,0.0,0.2,0.0,negative
+'guys i tried to download all even carbon only  works',0.09090909090909091,0.09090909090909091,0.18181818181818182,-0.02671992058754568,neutral
+'how does   have thevoice songs already in the system and recognize the initial performance i call lip sync questionmarkcharacter',0.3,0.0,0.1,0.3809133302868182,neutral
+'how bout you suck and kiss my ass when you see me because texans comin back homie',0.11764705882352941,0.058823529411764705,0.17647058823529413,0.027169973735259905,negative
+'wanna go to  with me questionmarkcharacter',0.1111111111111111,0.0,0.3333333333333333,0.00247318463869237,neutral
+'i also need to move back to boston because i m wasting my youth and it s giving me anxiety endrant happymonday',0.045454545454545456,0.13636363636363635,0.22727272727272727,-0.2108814977774923,negative
+'peach teaaa makes me happyyyyy',0.0,0.16666666666666666,0.0,-0.01606978879706153,positive
+'the best thing to ever happen to for teachers via',0.16666666666666666,0.16666666666666666,0.16666666666666666,0.21254568837839022,positive
+'man i love my lil  but they goin thru the struggle lmaooo exclamationmarkcharacter',0.14285714285714285,0.07142857142857142,0.0,0.22330901107617485,positive
+'learn how to develop and run data access applications for the liberty profile using was developer tools for eclipse',0.15789473684210525,0.0,0.3157894736842105,0.04790536822569807,neutral
+'so far i m not a big fan of mobile the opt out approach is a pain when converting an existing website',0.21739130434782608,0.08695652173913043,0.17391304347826086,-0.9065354527544265,negative
+'i just voted for seattle to host fashion show party you should too get voting at now exclamationmarkcharacter',0.3157894736842105,0.10526315789473684,0.10526315789473684,0.20090141567775885,neutral
+'is not responding is not responding my nightmares have come to life',0.3125,0.125,0.0625,-1.0555779544596575,negative
+'and  anti virus is being a pain in the ass again if only i could just murderize it',0.05263157894736842,0.21052631578947367,0.10526315789473684,-0.8009679306408796,negative
+'oh fuck off',0.0,0.0,0.3333333333333333,0.0,negative
+'looked down from my computer because i thought i had a text i was wrong it was a container damn',0.045454545454545456,0.13636363636363635,0.13636363636363635,-0.7410822926678161,negative
+'want to buy a new computer  notebook computer amazing offer exclamationmarkcharacter questionmarkcharacter',0.3076923076923077,0.0,0.3076923076923077,0.5131180284324273,positive
+'those fake ass reviews you got on you can stick em up your ass been around too long to fall for that shit greedyassholes',0.04,0.2,0.16,-0.99495872697925,negative
+'i hate it when niggers say things that don t apply to them i aint got no worries you in the th grade nigger you need to worry annoyedspecialcharacter',0.13793103448275862,0.06896551724137931,0.13793103448275862,-0.01822450316790261,negative
+'here s the latest ad running in craig s list i won a   inch plasma smart d hdtv on let s make a',0.125,0.125,0.3333333333333333,0.20170579986825415,neutral
+'cause of death reached for box of on the floorboard while driving high',0.13333333333333333,0.13333333333333333,0.13333333333333333,-0.06949303743003107,negative
+'my favorite sublime text plugin is probably easy to find debug lines you ve added since last commit',0.19230769230769232,0.038461538461538464,0.15384615384615385,0.6490618478383795,positive
+'a day to remember and  go surprisingly well together',0.45454545454545453,0.0,0.18181818181818182,0.4818725062739762,positive
+'in your considerations for hyundai and kia thing of electronics samsung no longer needs a defense but make room for   questionmarkcharacter',0.09090909090909091,0.09090909090909091,0.09090909090909091,0.010135831528362955,neutral
+'i wish i knew how many reese s i ve eaten in my life',0.14285714285714285,0.0,0.14285714285714285,0.21288992294361686,neutral
+'i love u all more than a fat person likes cake i love you more than i love nutella',0.15789473684210525,0.05263157894736842,0.2631578947368421,0.7758906834227282,positive
+'releases for windows cheekyspecialcharacter',0.0,0.0,0.5,0.0,neutral
+'i had to get arby s after work',0.25,0.0,0.125,0.03763861409840667,neutral
+'have you figured out how to share keynotes yet like via email or   questionmarkcharacter questionmarkcharacter',0.17647058823529413,0.0,0.17647058823529413,0.11035268199716339,neutral
+'lets me talk about',0.0,0.2,0.0,-0.056244260789715346,neutral
+'it pissed me off with promoted tweets and ads and shit just added some ads and it slowed it down to unusable',0.043478260869565216,0.13043478260869565,0.0,-0.8011639680285033,negative
+'need a mini or a as a first car',0.0,0.1,0.4,-0.021258503401360547,neutral
+'mexico news by diane bartz and soyoung kim washington new york reuters us airways group inc and a mex info',0.1,0.0,0.3,0.15414053935244726,neutral
+'best of both worlds so greatful gonna miss the best  stogapioners exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.125,0.0625,0.0625,0.3706177728509756,positive
+'need to invest in a new computer see the latest  pavilion notebook why wait questionmarkcharacter questionmarkcharacter',0.23529411764705882,0.11764705882352941,0.23529411764705882,0.3114929891966892,neutral
+'fix ur fucking program or die motherfucker',0.0,0.42857142857142855,0.2857142857142857,-0.8813450808439471,negative
+'first night with   shield i said wow too bad i had to recharge it so soon sadspecialcharacter',0.0,0.3333333333333333,0.1111111111111111,-0.7788795019797641,negative
+'the first ride in india was great more expensive than a taxi but without hassle of negotiating a price cheekyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter',0.13636363636363635,0.09090909090909091,0.18181818181818182,0.4326854389174756,positive
+'that bitch know how to party happyspecialcharacter',0.14285714285714285,0.14285714285714285,0.14285714285714285,-0.24509104765359596,positive
+'pssst they have bride of pinbot exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.1,0.0,0.1,0.04924006245099788,positive
+'wow should be ashamed of itself badkarma',0.14285714285714285,0.2857142857142857,0.0,-0.8411321254895133,negative
+'is my bestfriend',0.0,0.0,0.0,0.0,positive
+'enter to win a   coffee maker giveaway via pls rt',0.09090909090909091,0.09090909090909091,0.2727272727272727,0.0812043795620438,neutral
+'i love the backpack in leather from',0.125,0.0,0.25,0.26363022780757606,positive
+'thanks exclamationmarkcharacter',0.5,0.0,0.0,0.04545454545454546,positive
+'checkout where i buy my favorite workout clothes fitfluential one',0.3,0.0,0.2,0.20746018184368586,positive
+'that new chief keef go raw i can wear my coat and  bag to this song',0.1,0.15,0.25,-0.13553508423825905,neutral
+'maybe i m thinking of a different model it s a   lumia there could be more than one',0.15789473684210525,0.0,0.2631578947368421,0.284821054528665,neutral
+'i m at financial services goregaon e mumbai',0.2222222222222222,0.0,0.3333333333333333,0.30474452554744524,neutral
+'is the fire right now',0.25,0.125,0.25,0.07416999801513768,neutral
+'new dreameye hkt digital camera webcam   dreamcast import japan game jp end date wednesday questionmarkcharacter',0.25,0.0625,0.3125,0.2085396920674391,neutral
+'i need an empty  box',0.3333333333333333,0.16666666666666666,0.0,0.17523479991771465,neutral
+'booooo on for not carrying my cd s i buy every yr at this time yay to for having them in stock',0.13636363636363635,0.045454545454545456,0.18181818181818182,-0.47782710663912303,negative
+'wendy s the only restaurant whose burgers advertisement match',0.1111111111111111,0.1111111111111111,0.3333333333333333,0.01942045579712195,positive
+'i have always wanted to yo to',0.2,0.1,0.1,0.07169855008688367,positive
+'has this annoying refresh limit',0.0,0.5,0.0,-0.5735599333437107,negative
+'yep good point exclamationmarkcharacter',0.5,0.0,0.0,0.49963339271353313,positive
+'love it   makes strategic investment in tattoodo which is kind of like',0.14285714285714285,0.0,0.14285714285714285,0.28635750053484876,positive
+'disappointed in you guys broadcasting a commercial with the phrase hell yes never going to buy from ram',0.05555555555555555,0.2222222222222222,0.16666666666666666,-1.2425640121455186,negative
+'i m in the running to win a smartphone in the the a series  game aseries exclamationmarkcharacter',0.05,0.05,0.1,0.11372692179914637,neutral
+'cause since it was made in california when u purchase a digital copy it won t allow u to play until it',0.21739130434782608,0.043478260869565216,0.21739130434782608,0.12011202408333549,neutral
+'butheme one page responsive   theme',0.3333333333333333,0.0,0.3333333333333333,0.10033070521243978,neutral
+'just a little change in',0.3333333333333333,0.16666666666666666,0.0,-0.3080673509950775,neutral
+'you must really hate yourself if you eat papa john s pizza justsaying',0.15384615384615385,0.07692307692307693,0.3076923076923077,0.13226645273373147,negative
+'but i hate checkers and domino s pizza i m never eating there again',0.0,0.14285714285714285,0.5,-0.7083333333333333,negative
+'be positive via exclamationmarkcharacter',0.5,0.0,0.0,0.24028368327478958,positive
+'i m falling in love with  i can t believe i used to despise it tr luv',0.15789473684210525,0.05263157894736842,0.15789473684210525,0.03921458650625803,positive
+'you should have gone to  this weekend exclamationmarkcharacter',0.2222222222222222,0.0,0.1111111111111111,0.06234223672256847,neutral
+'the end best t shirts in the world',0.125,0.0,0.375,0.24000000000000005,positive
+'yes i love them thanks again exclamationmarkcharacter exclamationmarkcharacter',0.25,0.0,0.125,0.3090847732621215,positive
+'thank you for giving me k about coffee exclamationmarkcharacter',0.0,0.0,0.3333333333333333,0.0,positive
+'not surprising mobile operators are estimated to have lost bn in sms revenue in due to messaging apps such as',0.2,0.15,0.05,-1.1648489502823667,negative
+'i hate hate hate that controller',0.07692307692307693,0.23076923076923078,0.23076923076923078,-0.45985401459854014,negative
+'save money on thousands of hot deals in daytona beach fl win ff love tv free ema exclamationmarkcharacter',0.16666666666666666,0.1111111111111111,0.2222222222222222,0.4580444434487534,neutral
+'adobe photoshop lightroom for windows rc released',0.14285714285714285,0.0,0.14285714285714285,0.06818181818181819,neutral
+'i m dreaming of a  christmas winkspecialcharacter',0.0,0.0,0.2222222222222222,0.0,positive
+'marketing overload has taken over there has been tremendous growth in the cloud computing space but that gro',0.05555555555555555,0.2222222222222222,0.16666666666666666,-0.03266294534380181,neutral
+'dm us would like to talk biz for a quick min',0.0,0.16666666666666666,0.25,-0.3971533516988063,neutral
+'i m gonna apply at',0.14285714285714285,0.0,0.14285714285714285,0.030211529182976413,neutral
+'my pos cummins is the worst vehicle i ve ever owned wishiwouldveboughtaford unreliable',0.0,0.15384615384615385,0.15384615384615385,-1.0273722627737227,negative
+'but suck lol i think fixing up your car is better than buying a',0.1875,0.0,0.125,0.6558808230596768,negative
+'i really miss your  thank you',0.14285714285714285,0.14285714285714285,0.14285714285714285,0.25218802078485986,positive
+'inch k tablet comes to the us in january for se viene la tablet de exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09523809523809523,0.0,0.19047619047619047,0.09641873278236916,positive
+'excited for in a few hours still some spots available exclamationmarkcharacter',0.09090909090909091,0.2727272727272727,0.09090909090909091,-0.5597186147186147,positive
+'s coo launches game changing hub for smes in africa',0.0,0.1,0.2,-0.003973808127860925,neutral
+'idk ben and jerry s solves all my problems',0.1111111111111111,0.0,0.2222222222222222,0.125,positive
+'so annoyed that  is shutting down but there are going to be so many sales so i m going to stock up before it all goes exclamationmarkcharacter exclamationmarkcharacter',0.1,0.06666666666666667,0.23333333333333334,-0.5767300547995453,negative
+'dj holiday does yoga with',0.0,0.0,0.5,0.0,neutral
+'completed thank you winkspecialcharacter',0.0,0.0,0.25,0.0,positive
+'is grounded when i get home disappointed in you exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.15384615384615385,0.07692307692307693,0.0,-0.46214541002555476,negative
+'sucks',0,0,1,0,negative
+'founders wore shirt',0.0,0.0,0.3333333333333333,0.0,neutral
+'have you gone into  questionmarkcharacter',0.14285714285714285,0.0,0.2857142857142857,0.04924006245099788,neutral
+'but what   facts won t tell you is that females also learn to cook and clean at an earlier age than males too',0.125,0.041666666666666664,0.20833333333333334,0.11310663793056776,neutral
+'s o to the motherfucker that ate my  i hope you burn in hell',0.06666666666666667,0.2,0.13333333333333333,-0.8553347350458407,negative
+'me and used to be coo af idk what happened to that though',0.07692307692307693,0.0,0.07692307692307693,0.033867874510486645,neutral
+'want an awesome offer on new   harddrive fast delivery buy now   harddrive exclamationmarkcharacter exclamationmarkcharacter',0.3125,0.0625,0.125,0.9899591006937708,positive
+'i m soo glad g invested in a it makes monday nights that much more enjoyable',0.11764705882352941,0.058823529411764705,0.23529411764705882,0.3037633532795401,positive
+'has saved me keystrokes check it out at exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.08333333333333333,0.0,0.0,0.016092309826651774,positive
+'just a reminder you do not need a   ipad kindle or e reader to read the series all retailers have a',0.13636363636363635,0.18181818181818182,0.13636363636363635,-0.3811858678422676,neutral
+'a wonderful cause enjoy exclamationmarkcharacter exclamationmarkcharacter',0.3333333333333333,0.16666666666666666,0.0,1.0547702907196685,positive
+'bringing another back to life turbo  exclamationmarkcharacter exclamationmarkcharacter',0.1111111111111111,0.0,0.1111111111111111,0.0035235317590437895,neutral
+'is so fucking nasty',0.16666666666666666,0.16666666666666666,0.3333333333333333,-0.5108317742233108,negative
+'cassette tape laptop handle sleeve case bag cover for   samsung hp dell bids end date sunday',0.11764705882352941,0.17647058823529413,0.5294117647058824,-0.009608062584211412,neutral
+'bbm is now available for iphone and android adad p us a exclamationmarkcharacter questionmarkcharacter',0.13333333333333333,0.06666666666666667,0.2,0.15398161947342276,neutral
+'google chrome is crazy i kinda wish it just showed up as one process like   does',0.17647058823529413,0.11764705882352941,0.11764705882352941,0.11150078747507496,negative
+'no  i do not want to make you my default browser jeez take a hint',0.25,0.25,0.0,-0.9037137218458334,negative
+'i gave k about political science on',0.14285714285714285,0.0,0.2857142857142857,0.022727272727272728,neutral
+'now lets you save attachments directly via technology',0.25,0.08333333333333333,0.16666666666666666,0.12821032022575285,neutral
+'do you even drive a  questionmarkcharacter',0.2857142857142857,0.2857142857142857,0.0,-0.10615622081907831,neutral
+'the ice cream shop was great before but now its even better games exclamationmarkcharacter',0.3125,0.0,0.1875,0.823312339511524,positive
+'can t wait to dive in the tubs of hershey s ice cream happyspecialcharacter',0.07142857142857142,0.07142857142857142,0.35714285714285715,0.05474452554744526,positive
+'never been so grossed out before there was a dead worm in my  ineedanewone exclamationmarkcharacter',0.0,0.1875,0.125,-0.827978457410291,negative
+'always eat pop tarts when baked',0.16666666666666666,0.3333333333333333,0.16666666666666666,-0.13866348938244893,neutral
+'easy mp cutter download the easy mp cutter app now to your kindle fire or other android devices from the am',0.14285714285714285,0.09523809523809523,0.2857142857142857,-0.08205094234855717,neutral
+'rt china is the worlds largest internet population more than m have online access',0.14285714285714285,0.0,0.35714285714285715,0.10026047061426319,neutral
+'i have an allergy on  chocolates sadspecialcharacter',0.125,0.125,0.0,-0.07575993754900212,neutral
+'no i dont want to read shit i already bought it i shouldnthave to buy it again exclamationmarkcharacter',0.2222222222222222,0.05555555555555555,0.05555555555555555,0.3278697141124677,negative
+'donated usd to victims thank you for your help tp the',0.1111111111111111,0.0,0.1111111111111111,0.19593010440254097,positive
+'so  just took that year million dollar shoe deal away and gave it to jabari parker now haha',0.10526315789473684,0.10526315789473684,0.2631578947368421,0.04128580858679748,neutral
+'it s amazing traded it for my  one and i m not disappointed exclamationmarkcharacter',0.06666666666666667,0.13333333333333333,0.13333333333333333,-0.8522727272727273,positive
+'mms is not working today please fix it exclamationmarkcharacter',0.2222222222222222,0.2222222222222222,0.0,-0.4335610630076894,negative
+'happy thursday it is a brisk morning out there but is supposed to warm up and be a beautiful day happyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.25925925925925924,0.0,0.1111111111111111,1.6436285236105888,positive
+'what about   questionmarkcharacter',0.0,0.0,0.0,0.0,neutral
+'upload to  and share link with the class questionmarkcharacter',0.18181818181818182,0.0,0.2727272727272727,0.05519720024865572,neutral
+'toshiba canvio tb usb plus portable hard disk drive',0.2222222222222222,0.1111111111111111,0.2222222222222222,0.10291037247586882,neutral
+'i gave k about shopping on',0.0,0.0,0.3333333333333333,0.0,neutral
+'fuckin opera so fkn hate exclamationmarkcharacter',0.0,0.16666666666666666,0.3333333333333333,-0.25,negative
+'this ain t mcdonald s you can t have it your way exclamationmarkcharacter',0.15384615384615385,0.0,0.23076923076923078,0.052035596042094866,neutral
+'follow your dreams dont ever give up this song is for all the dreamers he said while ringing up his customer s',0.12,0.04,0.24,0.06720474948352356,neutral
+'building your marketing funnel with googleanalytics moz',0.0,0.0,0.42857142857142855,0.0,neutral
+'i swear i wear  like everyyyy day i love them tho so',0.23076923076923078,0.07692307692307693,0.15384615384615385,0.20802677551925292,positive
+'glad  finally friday',0.0,0.25,0.5,-0.06198347107438018,positive
+'how to recognize and avoid phishing emails and links via featuring',0.09090909090909091,0.09090909090909091,0.09090909090909091,0.10219723238188075,neutral
+'barista in jawalakhel is open till nine pm and till ten pm this is super exciting for patan i say',0.13043478260869565,0.043478260869565216,0.17391304347826086,0.47428990574266783,positive
+'the philosophy of social science an introduction cambridge introductions to philosophy this new interdisci',0.35714285714285715,0.07142857142857142,0.07142857142857142,0.22296610214389478,neutral
+'systems inc csco leading into the future but trading at seeking alpha systems',0.0,0.0,0.4375,0.0,positive
+'cannot install gem therubyracer in os x mavericks stack overflow',0.07692307692307693,0.07692307692307693,0.38461538461538464,0.20205499589045062,neutral
+'hey no one ever uses minion for anything at all stop making it the default font',0.0625,0.0625,0.1875,-0.07382032751585275,negative
+'blame  for a bad markup is as silly as blame your camera for a bad picture it s just a tool',0.045454545454545456,0.2727272727272727,0.18181818181818182,-1.5456524477315532,negative
+'quick coffee all the time exclamationmarkcharacter',0.14285714285714285,0.0,0.2857142857142857,0.0799522607053738,positive
+'sometimes disney does it right upmovie carlandellie love marriage',0.3333333333333333,0.0,0.2222222222222222,0.38260110088599697,positive
+'live month gold membership card',0.3333333333333333,0.16666666666666666,0.3333333333333333,0.016727645812837897,neutral
+'love my new boots',0.3333333333333333,0.0,0.0,0.394205049668089,positive
+'groupon moves from  to node js',0.0,0.0,0.2222222222222222,0.0,neutral
+'coming home from basketball an shoving a spoonful of  into my mouth bestfeelingever',0.07142857142857142,0.0,0.14285714285714285,0.010564078275962124,positive
+'the only best thing about this is my background looks full in view not half',0.1875,0.25,0.0625,-0.43917155365438404,positive
+'android developers can get the  g for free tech news gadgets',0.16666666666666666,0.08333333333333333,0.25,0.023095027556607126,neutral
+'the entire plot of ratatouille funny',0.4444444444444444,0.0,0.2222222222222222,0.3257299270072993,positive
+'has not even cured me i ve fucked it',0.09090909090909091,0.09090909090909091,0.09090909090909091,-0.6222627737226277,negative
+'unleashes yoga media tablet with eighteen hours of battery life x bit labs technology',0.13333333333333333,0.2,0.2,-0.08263081736517014,neutral
+'for happy hour i need it mmmm not sippin henny tonight bar exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.05555555555555555,0.1111111111111111,0.3333333333333333,-0.16531268154644774,positive
+'unlikely hero randy format mp music',0.3333333333333333,0.16666666666666666,0.3333333333333333,-0.14033366094843158,neutral
+'love her examples tots on board good marketing doesn t feel like marketing brands that get it via',0.16666666666666666,0.05555555555555555,0.2222222222222222,0.7412679649690657,positive
+'stupid  and stupid firewall',0.0,0.4,0.2,-0.8700000000000001,negative
+'looooveee you more honey',0.25,0.0,0.25,0.041666666666666664,positive
+'not sure about disney but i would pitch pixar they re on women s empowerment frontline',0.0625,0.0625,0.3125,-0.375,negative
+'oh good is opening down the street just in time for me to stop buying their stuff because the quality sucks',0.2857142857142857,0.09523809523809523,0.0,0.8492532261788432,negative
+'i can t wait exclamationmarkcharacter exclamationmarkcharacter',0.0,0.0,0.2857142857142857,0.0,positive
+'i m loving this new coffee maker coffee hottea frenchroast hazlenut omg sooo good happyspecialcharacter',0.14285714285714285,0.0,0.2857142857142857,0.880574821860513,positive
+'lol it s another place over there by',0.2,0.0,0.3,0.02078291244762112,neutral
+'don t miss secrets of selfridge tonight at only on tv exclamationmarkcharacter',0.0,0.15384615384615385,0.3076923076923077,-0.13883937401394245,neutral
+'working with',0.25,0.0,0.25,0.06818181818181819,neutral
+'new job technician cell exclamationmarkcharacter',0.1111111111111111,0.1111111111111111,0.5555555555555556,0.09843658757487897,neutral
+'i want some churches chicken now omg but why when u have exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.16666666666666666,0.05555555555555555,0.05555555555555555,0.08537026014677396,positive
+'i love my new tiffany co necklace',0.2857142857142857,0.0,0.42857142857142855,0.394205049668089,positive
+'i upgraded to the   phone yesterday from an older nexus nice phone and the speed difference with lte is amazing',0.13636363636363635,0.045454545454545456,0.3181818181818182,0.8755201215108472,positive
+'could have been better try must better specs exclamationmarkcharacter',0.36363636363636365,0.0,0.18181818181818182,1.2640776098991555,positive
+'very rare we verified and unfortunately they re no longer available check out our website for alternate styles sadspecialcharacter exclamationmarkcharacter exclamationmarkcharacter',0.23809523809523808,0.047619047619047616,0.14285714285714285,-0.5332427191772348,negative
+'new post   combining wii u and ds network ids adds miiverse to ds in neoseeker',0.0625,0.0,0.1875,0.13057482186051292,neutral
+'my dad is using oh my god stop so embarrassing cheekyspecialcharacter',0.14285714285714285,0.07142857142857142,0.2857142857142857,-0.7312199264738932,negative
+'hello i have a very specific technical question regarding a website that i need to ask can you help questionmarkcharacter',0.25,0.1,0.1,0.3445047807664346,neutral
+'bootunlocker v adds support for nexus lets you relock and unlock bootloader without data wipes root',0.0,0.0,0.25,0.0,neutral
+'females who aren t always at parties clubs every weekend are the type of females who are worth being in a relationship with',0.043478260869565216,0.043478260869565216,0.17391304347826086,0.11336757854497673,neutral
+'can t believe i m currently paying a month in phone contracts to be using a  phone this is not right not fair sadspecialcharacter',0.16,0.08,0.24,-0.8621322100745584,negative
+'happy birthday',0.3333333333333333,0.0,0.3333333333333333,0.4809458218549128,neutral
+'picture  s new coffee flavor is saucy',0.125,0.25,0.25,0.10342196723036325,positive
+'i just made a   account bestphoto photoofday friends once new app exclamationmarkcharacter',0.23076923076923078,0.0,0.07692307692307693,0.207795320250617,neutral
+'this is our page link if you want to share it to your walls and groups the more members we have the more the',0.08333333333333333,0.0,0.20833333333333334,0.0952321780883172,neutral
+'i liked a video the complete history of the',0.09090909090909091,0.0,0.18181818181818182,0.2625383267630311,positive
+'maschine producerpov phone cam on the hardware',0.0,0.0,0.42857142857142855,0.0,neutral
+'how you suppose to eat pickleswith a pack of kool aid and a little sugar with sour  exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09090909090909091,0.18181818181818182,0.09090909090909091,-0.6834891373031082,neutral
+'wanted snow chains for a smart car exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09090909090909091,0.0,0.2727272727272727,0.2868032352728158,neutral
+'never been so grossed out before there was a dead worm in my  ineedanewone exclamationmarkcharacter',0.0,0.1875,0.125,-0.827978457410291,negative
+'coffee tastes like crap never buying that shit again thank god for lol exclamationmarkcharacter',0.058823529411764705,0.17647058823529413,0.17647058823529413,-0.8037552188139001,negative
+'learning   is going really well exclamationmarkcharacter',0.19047619047619047,0.0,0.19047619047619047,0.6469915468361919,positive
+'international numbers ee orange o ext have all been reported as not working even tho they previously were fixyourshit questionmarkcharacter',0.1,0.1,0.3,-0.8684772567261753,negative
+'disappointing more than just sonic fans now sadspecialcharacter',0.2222222222222222,0.1111111111111111,0.2222222222222222,-0.6826649505487061,negative
+'you can learn languages with your mac learn how to communicate in chinese apple mac education exclamationmarkcharacter',0.17647058823529413,0.058823529411764705,0.23529411764705882,0.21089033110690159,neutral
+'why the hell would i use questionmarkcharacter',0.1,0.1,0.1,-0.2466415862186566,negative
+'i m still thinking what i should do but i may just create them on   or draw it out scan it edit and print',0.15384615384615385,0.07692307692307693,0.19230769230769232,0.11046075263192817,neutral
+'how to get data set name implicitly in rexx questionmarkcharacter',0.3,0.1,0.1,-0.12701483854423895,neutral
+'miles this morning hate running in gusting winds best my feet have felt in two weeks ran in brooks glycerin s',0.09523809523809523,0.09523809523809523,0.19047619047619047,-0.21075993754900207,negative
+'hugo boss quarterly earnings miss forecasts the market environment in china remains tense via',0.07142857142857142,0.14285714285714285,0.5,-0.12654363716757738,neutral
+'you can take a look to this little preview at total look photoshoot exclamationmarkcharacter',0.06666666666666667,0.2,0.13333333333333333,-0.3918521350831463,neutral
+'josh smith vs paul george is a hell of a match up exclamationmarkcharacter',0.3076923076923077,0.15384615384615385,0.0,-0.18708264496016602,neutral
+'a demain cute art love paint marisacastro',0.42857142857142855,0.0,0.14285714285714285,0.7266361999376358,positive
+'does anybody else feel the need to punch joe in the face questionmarkcharacter',0.0,0.21428571428571427,0.07142857142857142,-0.05285615993658006,negative
+'just great update thank you keep it up exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.2727272727272727,0.09090909090909091,0.18181818181818182,0.19505441925467637,positive
+'this creepy ass guy is shamelessly hitting on the salad lady and me in  can you not',0.05,0.15,0.2,-1.5763793652689844,negative
+'rt the buzz is all about these beauties stop by  to get your pair today tuesdayshoesday exclamationmarkcharacter',0.21052631578947367,0.05263157894736842,0.05263157894736842,0.12366470827325837,positive
+'baskin robbins has a great bogo deal news bubblews bubblews exclamationmarkcharacter',0.18181818181818182,0.0,0.18181818181818182,0.13567016015777278,positive
+'has the most gorgeous dresses i ve ever seen stg',0.08333333333333333,0.0,0.25,0.75,positive
+'field marketing segment manager clinical decision support   germany',0.1111111111111111,0.0,0.7777777777777778,0.01149802890932983,neutral
+'may be the st gaming console i ever buy rt  officially unboxes the ps',0.13333333333333333,0.0,0.3333333333333333,0.09769169271780885,neutral
+'live editor for frontendenginners',0.2,0.0,0.4,0.014769649271689472,neutral
+'is not age appropriate for middle school',0.0,0.125,0.5,-0.625,neutral
+'looking to invest in a new computer see the latest  laptop computer available now exclamationmarkcharacter questionmarkcharacter',0.29411764705882354,0.058823529411764705,0.23529411764705882,0.40339977873813926,neutral
+'i fucking hate',0.4,0.2,0.0,-0.05249731308049836,negative
+'i hate when i see ppl over charging for hair that shit don t even be lasting that long fuck u thinking it s not',0.1111111111111111,0.14814814814814814,0.2962962962962963,-1.00059458387014,negative
+'announces official walking dead monopoly set via',0.125,0.25,0.125,-0.3037036444008119,neutral
+'i know one of the instructors at full sail got you a job how was it working with dell and  what did you do questionmarkcharacter questionmarkcharacter',0.07407407407407407,0.07407407407407407,0.07407407407407407,0.007148158004519178,neutral
+'join   consulting as retail expertcontact hemalatha rajan cheekyspecialcharacter',0.1111111111111111,0.0,0.1111111111111111,0.05474452554744526,neutral
+'this is genius',0.25,0.0,0.0,0.31427945685501535,positive
+'cookies are too good',0.2,0.2,0.2,0.3947577636735701,positive
+'such a fun and colourful font love it multicolore free fonts exclamationmarkcharacter exclamationmarkcharacter',0.23076923076923078,0.15384615384615385,0.07692307692307693,0.23379536990302918,positive
+'lets have two girls and name em rolls and porsche',0.2,0.0,0.1,0.06631092005836815,neutral
+'now only lets me log into one of my gmail accounts at a time can we talk about how inconvenient that is disappointing google questionmarkcharacter',0.08,0.16,0.08,-1.4067675274758367,negative
+'good you dyke',0.3333333333333333,0.3333333333333333,0.0,0.27354564246144886,positive
+'best way to gain newfollowers',0.6,0.0,0.0,0.3618431526387161,positive
+'you smell good like the soda my cousin maggie you guys',0.08333333333333333,0.0,0.3333333333333333,0.4780910970069034,positive
+'the worst kind of liquor is  just nasty',0.1,0.2,0.2,-0.9786162669918259,negative
+'great meeting you hope you enjoyed auntie anne s pretzels and shake shack exclamationmarkcharacter',0.14285714285714285,0.14285714285714285,0.21428571428571427,0.1638209520781584,positive
+'going barbour coat shopping today with   discount bargain exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.14285714285714285,0.0,0.21428571428571427,0.23484848484848486,positive
+'already looking at the  menu deciding what i want ha ha ha wow',0.2,0.06666666666666667,0.3333333333333333,0.11417393381913749,positive
+'what happens when u put on salmon u get salmonella haha someone date me plz',0.1875,0.0,0.3125,0.04668406297308187,neutral
+'in tweetbot i could read only my lists with bar i cant do it with tweetbot sadspecialcharacter',0.09523809523809523,0.14285714285714285,0.047619047619047616,0.5288395277308948,negative
+'someone should bring me a',0.0,0.14285714285714285,0.42857142857142855,-0.0028953364221291837,neutral
+'strep scorecard might help tell if you need a doc',0.2,0.1,0.3,0.17740396373392342,neutral
+'starts sample shipments of cmos image sensor for automotive view cameras',0.0,0.16666666666666666,0.25,-0.06350422591613167,neutral
+'was creeping on briana and found that one tweet so i retweeted it cause it s true annoyedspecialcharacter',0.05555555555555555,0.05555555555555555,0.2222222222222222,0.12258288341636171,neutral
+'a new pc at your fingertips how can you resist the   laptop computer unbeatable value exclamationmarkcharacter',0.11764705882352941,0.11764705882352941,0.17647058823529413,-0.051898494555151636,positive
+'and i decided to try out some flower crowns and i couldn t help but think about tyler',0.21052631578947367,0.0,0.15789473684210525,0.31904669789660844,positive
+'why seo is a must in one website questionmarkcharacter',0.0,0.0,0.1111111111111111,0.0,neutral
+'true hahahha then just try   happyspecialcharacter',0.42857142857142855,0.0,0.14285714285714285,0.23777123272149675,positive
+'meet the suv of motorcycles and its electric siblings autos news cars',0.25,0.0,0.08333333333333333,0.09409315977982655,neutral
+'this is the future  monza concept via',0.0,0.0,0.375,0.0,neutral
+'abercrombie fitch is probably the worst place in the world',0.1,0.2,0.2,-0.8736883436320985,negative
+'loving elementaryos on an old  aspire one',0.375,0.0,0.125,0.9780712134656121,positive
+'narker threw a curve ball that was not day',0.09090909090909091,0.18181818181818182,0.18181818181818182,-0.98293583477458,neutral
+'is elon musk the next steve jobs questionmarkcharacter',0.0,0.0,0.125,0.0,neutral
+'now available',0.2857142857142857,0.0,0.42857142857142855,0.19564828614008944,neutral
+'i strongly suggest everyone to try the  green tea by trader joes it s everything',0.1875,0.0625,0.25,0.17368389590489555,positive
+'me and le booboo matched today wore our  shirts',0.1,0.0,0.0,0.06818181818181819,neutral
+'i just used   to discover of the night by bastille',0.09090909090909091,0.09090909090909091,0.18181818181818182,0.04141293677286933,neutral
+'terrific but not yet essential abc news',0.4444444444444444,0.1111111111111111,0.1111111111111111,-0.37133057171961,positive
+'stupid commercial awful beer',0.0,0.5,0.5,-0.9594929162575396,negative
+'tweet your song or music service to over thousand real followers for as low as',0.06666666666666667,0.13333333333333333,0.26666666666666666,-0.08212237646332933,neutral
+'amazing deals price cuts and big savings on   g vx ts gaming laptop review now exclamationmarkcharacter',0.29411764705882354,0.0,0.23529411764705882,0.4095110804864175,neutral
+'keep your email private scroogled exclamationmarkcharacter',0.0,0.2857142857142857,0.14285714285714285,-0.050302201954607696,neutral
+'kingfisher bluert if you leave beer in my fridge that shit is no longer yours',0.0,0.06666666666666667,0.3333333333333333,-0.1569462197321738,neutral
+'i think i m not going to buy the  anymore i m not even certain about what school i want to go to or if i m even going back',0.22580645161290322,0.0967741935483871,0.1935483870967742,-1.1961352424580411,negative
+'sucks',0,0,1,0,negative
+'go home   you are so drunk',0.2857142857142857,0.0,0.2857142857142857,0.013037262914654494,negative
+'next stop',0.3333333333333333,0.0,0.0,0.0027102847290452117,neutral
+'cap n crunch rt lucky charms the best cereal argue this',0.18181818181818182,0.09090909090909091,0.36363636363636365,0.8138673815111004,positive
+'how to add code box area to your   blog posts make money informative blog via questionmarkcharacter',0.23529411764705882,0.0,0.35294117647058826,0.13891292295452756,neutral
+'if i have a  eclipse and i look at the eclipse with my naked eyes i ll be safe right questionmarkcharacter',0.22727272727272727,0.09090909090909091,0.09090909090909091,0.48853950153232484,neutral
+'nice picture',0.5,0.5,0.0,0.5335961985329868,positive
+'amazing deals price cuts and big savings on   aspire v highly recommended exclamationmarkcharacter',0.35714285714285715,0.0,0.14285714285714285,0.8902158470684767,positive
+'you always do i see your',0.14285714285714285,0.2857142857142857,0.0,-0.023829034617087512,neutral
+'after all the problems i have had with this van which is less than years old you should be ashamed',0.15,0.1,0.1,-0.8638208495729034,negative
+'is getting a little creepy with their slogans',0.0,0.2222222222222222,0.1111111111111111,-0.9431818181818182,negative
+'i hate fake dr martens',0.0,0.4,0.0,-1.0,negative
+'i m so tired of fake friends  liars being ignored getting hurt',0.15384615384615385,0.15384615384615385,0.15384615384615385,-0.916078818251761,negative
+'it s disturbing',0.0,0.3333333333333333,0.3333333333333333,-0.875,negative
+'we drank those  drinks and dry humped it was awful i think she gave me poison ivy itsalwayssunny',0.1,0.25,0.05,-1.1262892718906976,negative
+'i gotta chill with the  i m having the worst anxiety and hyper all at once i don t like how this feel',0.0,0.24,0.16,-0.9620441087384912,negative
+'oh that was embarrassing just tripped hella bad in',0.09090909090909091,0.18181818181818182,0.18181818181818182,-1.078841053249446,negative
+'the infamous  think pad is something i ve been blessed with and it s nothing short of awful',0.10526315789473684,0.15789473684210525,0.10526315789473684,-1.2783146413171416,negative
+'hey no lime anymore what is wrong with you grave disappointment questionmarkcharacter questionmarkcharacter',0.0,0.23076923076923078,0.15384615384615385,-0.8629548215380527,negative
+'changing that bulb was horrible i dislike  at the moment things used to be simple on changing things now its all chaotic',0.125,0.20833333333333334,0.125,-1.0869496209064753,negative
+'worst original sandwhich ever smelled really bad and was all burnt this is the third time this happens exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09523809523809523,0.19047619047619047,0.09523809523809523,-0.8700934621913647,negative
+'all we havin at the party is exclusive vodka none of that cheap ass shit like uv captain morgan smirnoff etc',0.045454545454545456,0.18181818181818182,0.22727272727272727,-0.8278505750181145,negative
+'stupid how stopped working so idk where to see who of the people i follow is inactive now',0.15,0.15,0.1,-0.845497458704081,negative
+'just had the world s worst excuse for a grilled cheese at definitely never making that mistake again',0.14285714285714285,0.23809523809523808,0.19047619047619047,-1.6213902352247562,negative
+'your not looking for sarcastic responses here',0.0,0.375,0.125,-1.3409090909090908,neutral
+'is it weird that i know when a is going into its stale state of being bad because when you bite into it it shouldnt be hard annoyedspecialcharacter questionmarkcharacter',0.1,0.16666666666666666,0.0,-0.9415965011942784,negative
+'lmao gene i cant believe people still at that damn party it smelled like ass sour coochie rough sex and exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.041666666666666664,0.25,0.16666666666666666,-0.8613721397441941,negative
+'avg as bad as which clogs up slows down your pc laptop use free revo uninstaller to remove all crappy programmes files',0.08695652173913043,0.21739130434782608,0.08695652173913043,-1.2056136055432833,negative
+'the eleven has pulpy simply orange but not pulpy princessprobz',0.09090909090909091,0.2727272727272727,0.18181818181818182,-1.488138686131387,neutral
+'ain t never let me down',0.0,0.5,0.125,-0.9140568938958399,neutral
+'it used to be at dp but has moved to the quality is shocking dress not worth the money so disappointing exclamationmarkcharacter exclamationmarkcharacter',0.16666666666666666,0.125,0.125,-0.8493308263368065,negative
+'not hosting jam europe event in via',0.0,0.4444444444444444,0.2222222222222222,-0.8047520661157024,neutral
+'gotta say bf ghosts its like the difference between single malt and one is slow and measured the other is hyperactive and messy',0.08,0.28,0.04,-1.36586645378874,negative
+'black girls with acne look like crunch bars sorry i m a terrible person looooool i can t breath tbh sadspecialcharacter exclamationmarkcharacter exclamationmarkcharacter',0.041666666666666664,0.20833333333333334,0.25,-1.6307221892725425,negative
+'i am not discouraged because every wrong attempt discarded is another step forward t e edison',0.0625,0.125,0.25,-0.9668796811725049,neutral
+'not talking to for the rest of the day bc i hate her',0.14285714285714285,0.14285714285714285,0.0,-0.8441383649080153,negative
+'one thing i really hate sitting in traffic have you ever looked at the back of a until its ugliness made you want to be sick questionmarkcharacter',0.13793103448275862,0.1724137931034483,0.06896551724137931,-0.8141480456771827,negative
+'app has been slow sending for ages today msgs not being received unless other person opens the app',0.05263157894736842,0.15789473684210525,0.10526315789473684,-0.8734397432598549,negative
+'i like swine and do what u want other is creepy and distasteful',0.07692307692307693,0.3076923076923077,0.15384615384615385,-1.313048484115836,negative
+'who can i contact for bad service i paid for my car to get fixed and left with the same result not fixed out of money exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.06666666666666667,0.1,0.16666666666666666,-0.8642855405099432,negative
+'finally a gov website that looks not bad https t co avikwiokx uses thanks to for the heads up fb annoyedspecialcharacter exclamationmarkcharacter',0.08695652173913043,0.08695652173913043,0.21739130434782608,-0.9198301699234505,positive
+'that victoria s secret baby is just the tip of a disturbing trend',0.15384615384615385,0.15384615384615385,0.3076923076923077,-0.9032391249584881,negative
+'i love your hair i m and not quite that brave but i did recently cut my hair short and spikey and added happyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter',0.07142857142857142,0.14285714285714285,0.21428571428571427,-1.17844128495484,positive
+'making random frivolous requests from the bed bath beyond to suppress my hatred for literally everything steelcutleryset keurig',0.1111111111111111,0.16666666666666666,0.1111111111111111,-0.913570502752418,negative
+'i love that commercial exclamationmarkcharacter exclamationmarkcharacter',0.375,0.125,0.0,0.37113291472707766,positive
+'one week until my birthday did i already mention i like  questionmarkcharacter',0.15384615384615385,0.0,0.15384615384615385,0.1687956204379562,positive
+'mmmm happyveteransdaydad exclamationmarkcharacter',0.0,0.0,0.5,0.0,positive
+'madam love them  exclamationmarkcharacter',0.3333333333333333,0.0,0.16666666666666666,0.34696356114090937,positive
+'okay i liked the  one it s cute it s cute',0.25,0.0,0.25,1.1477272727272727,positive
+'someone eat  with me exclamationmarkcharacter',0.125,0.125,0.375,-0.04218807142595032,neutral
+'margaritas yummy chili s grill bar exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.1111111111111111,0.0,0.4444444444444444,0.5,positive
+'the buttons are messed up with  lol',0.125,0.0,0.0,0.04024310118265441,negative
+'check out this video from the  adventador exclamationmarkcharacter',0.1111111111111111,0.0,0.1111111111111111,0.016092309826651774,neutral
+'why the hell would i use  a case by case introduction questionmarkcharacter',0.2857142857142857,0.07142857142857142,0.07142857142857142,-0.2245727714105736,negative
+'this surely describes the beauty of the medical profession share if you agree courtesy',0.35714285714285715,0.07142857142857142,0.07142857142857142,1.240779309394315,neutral
+'ok im watching  music awards now',0.2857142857142857,0.0,0.14285714285714285,0.12296322262716783,neutral
+'i m giving away  can cooler check it out',0.18181818181818182,0.09090909090909091,0.09090909090909091,0.02776614155658816,neutral
+'i want a  watch so bad exclamationmarkcharacter',0.2222222222222222,0.1111111111111111,0.2222222222222222,-0.08453570092333101,positive
+'the  r is amazing',0.2,0.0,0.2,0.27272727272727276,positive
+'i can t wait to go home and eat barbecue chips and drink',0.4,0.0,0.26666666666666666,0.2866193650643198,neutral
+'i want  more than life right now soml every day',0.38461538461538464,0.07692307692307693,0.23076923076923078,0.10004938949204698,positive
+'i love cheddar flavored  thier fucking good',0.25,0.125,0.0,0.7189940520872067,positive
+'i really want dippin dots right now what questionmarkcharacter',0.4444444444444444,0.0,0.0,0.503916216667265,positive
+'i wish i could go get some chick fil a',0.3,0.0,0.1,0.23913008752174855,positive
+'a  for my birthday pls thankyou',0.0,0.0,0.14285714285714285,0.0,positive
+'so happy soccer season starts in the winter i love wearing sweats  and just playing in cold weather in general',0.18181818181818182,0.13636363636363635,0.22727272727272727,0.490978496668278,positive
+'i do believe your  is wrong the coach has no tush what so ever fotched',0.0625,0.125,0.25,-0.3691337439515708,negative
+'good good d she s great to her fans',0.3333333333333333,0.1111111111111111,0.1111111111111111,1.0135421111322,positive
+'this just tastes like a this is boring',0.08333333333333333,0.0,0.3333333333333333,0.051686763311204455,negative
+'new job alert  developer travelers haven denver co is looking for a ru jobs ruby rails',0.10526315789473684,0.05263157894736842,0.3684210526315789,0.5034365875748791,neutral
+'reconsidering my choice of  all because of drivers exclamationmarkcharacter',0.0,0.1,0.0,-0.02,negative
+'update was nice enough to trash my database and backups thank god for',0.23076923076923078,0.07692307692307693,0.23076923076923078,0.6753909264413734,positive
+'how to embed web fonts into your site with  creative cloud creative bloq',0.21428571428571427,0.07142857142857142,0.14285714285714285,0.13721939194780292,neutral
+'what s wrong with i can t send neither receive pics is there any prob with the network exclamationmarkcharacter questionmarkcharacter questionmarkcharacter questionmarkcharacter',0.09090909090909091,0.045454545454545456,0.18181818181818182,-0.40574664975185054,negative
+'whoever wants to buy me a  gtr for christmas that would be great',0.21428571428571427,0.0,0.14285714285714285,0.20979613538364728,positive
+'you re probably the only chelsea fan to think that',0.2,0.1,0.2,0.03284724167877105,negative
+'never using again never had so many issues with a camera were obviously not meant for each other studentproblems exclamationmarkcharacter exclamationmarkcharacter',0.047619047619047616,0.19047619047619047,0.19047619047619047,-1.3148530762167125,negative
+'save my tweets to',0.3333333333333333,0.0,0.16666666666666666,0.14827631979994915,neutral
+'and have the best movies',0.2857142857142857,0.0,0.14285714285714285,0.2892400624509979,positive
+'fuck i broke my  s screen fuck sadspecialcharacter exclamationmarkcharacter',0.0,0.1,0.4,-0.041666666666666664,negative
+'amazing commercial always on  commercial',0.3,0.3,0.0,0.08980017546877066,positive
+'breaking news we re keeping the  happyspecialcharacter',0.125,0.0,0.125,0.023565717491934354,positive
+'adamparsons i m really loving that shirt it s such a lovely shade and ing an imperfect person perfectly sam',0.23809523809523808,0.14285714285714285,0.23809523809523808,1.7250199067898175,positive
+'hey is a famous singer and he should be a supra model check this out happyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.21052631578947367,0.0,0.05263157894736842,0.45437984736725434,positive
+'love that  wheelchair basketball advert great marketing pulling my heartstrings and that',0.3076923076923077,0.0,0.3076923076923077,0.5234619432006872,positive
+'dippin dots would be fabulous right now',0.5714285714285714,0.0,0.0,0.4039443553437742,positive
+'i love you',0.5,0.0,0.0,0.6386302278075761,positive
+'i heard you just got a job at  questionmarkcharacter questionmarkcharacter questionmarkcharacter questionmarkcharacter',0.07142857142857142,0.07142857142857142,0.14285714285714285,0.019548529025570506,neutral
+'should nonprofits have mobile websites the conversation about mobile websites has been an questionmarkcharacter',0.1875,0.0,0.125,0.0839574141132226,neutral
+'i am its not working hashtag  problems hashtag i can t find the hashtag button sadspecialcharacter',0.058823529411764705,0.11764705882352941,0.11764705882352941,-0.6631287018652194,negative
+'when the app for  coming questionmarkcharacter',0.0,0.0,0.25,0.0,neutral
+'wish we played more but  sadspecialcharacter',0.14285714285714285,0.0,0.14285714285714285,0.20936639118457306,negative
+'smartphones take the lead in mobile phone sales worldwide cnet',0.3,0.0,0.2,0.07110479478482509,neutral
+'some  would be nice rn',0.42857142857142855,0.0,0.2857142857142857,0.5805776398654146,positive
+'i havent held you responsible my tweet was about not you at least not directly i want the facts',0.10526315789473684,0.15789473684210525,0.10526315789473684,-0.9197221700769663,neutral
+'ugghh i regret drinking that now annoyedspecialcharacter',0.1111111111111111,0.1111111111111111,0.2222222222222222,-0.8593517138599106,negative
+'isabel marant for so many frenzied women actually horrific',0.09090909090909091,0.2727272727272727,0.2727272727272727,-0.8877244598382841,negative
+'incredible exclamationmarkcharacter',0.0,0.0,0.5,0.0,positive
+'hanging out at seatac all day greeting our amazing field team can t wait to have a great launch exclamationmarkcharacter',0.2,0.0,0.25,0.451135943069529,positive
+'are my fave',0.0,0.0,0.2,0.0,positive
+'all i ate today was a cup of',0.2,0.0,0.2,0.08740334731857545,neutral
+'something you might like',0.0,0.0,0.0,0.0,neutral
+'plain are to die for love them we used to be fans of only cherry peanut butter is out fave now crazygoodpb exclamationmarkcharacter exclamationmarkcharacter',0.16666666666666666,0.125,0.08333333333333333,0.6944451686605577,positive
+'among the many incredible changes in better font handling and fonts createnow',0.07692307692307693,0.0,0.23076923076923078,0.5833333333333334,positive
+'whhh an arrogant murdering communist bubble headed lying sack of but please not thats disrespectful questionmarkcharacter',0.3333333333333333,0.1111111111111111,0.05555555555555555,0.5661237405583,negative
+'this gets it out of my head and into a gist it needs work https t co jv tcqeg m annoyedspecialcharacter',0.14285714285714285,0.0,0.19047619047619047,0.05930458141553589,neutral
+'here is my experience in words of that day when i met super talented guys read this happyspecialcharacter cheekyspecialcharacter',0.19047619047619047,0.047619047619047616,0.09523809523809523,1.0455661363160902,positive
+'told you that it s not like a crunch bar but ehhhh im just joking with',0.11764705882352941,0.058823529411764705,0.17647058823529413,-0.3233132366887955,neutral
+'i adore muse although i m not allowed to have it as i already have cs have fun with it happyspecialcharacter',0.2727272727272727,0.045454545454545456,0.13636363636363635,-0.22935346891774294,positive
+'went on a little shopping spree earlier today and now currently looking at online is such a tease',0.15,0.1,0.25,0.0838301043219076,positive
+'a engine we ve been putting together',0.0,0.0,0.25,0.0,neutral
+'i feel so cautious when i m searching google stuff on i feel like my computer is going to explode cheekyspecialcharacter',0.043478260869565216,0.17391304347826086,0.2608695652173913,0.4754729502746672,negative
+'more of you need to at least get in this chat its kinda dead',0.06666666666666667,0.2,0.13333333333333333,-0.47682628425890555,negative
+'my camero love chevy camero',0.2,0.0,0.0,0.26363022780757606,positive
+'rt should i go out of my way to go get half baked ice cream or what yes you should best ben jerry s ever exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.25,0.03571428571428571,0.17857142857142858,0.37315782929821906,positive
+'really',0.5,0.0,0.0,0.36157024793388437,neutral
+'global phone directory',0.0,0.25,0.5,-0.20833333333333334,neutral
+'you guys are cute',0.25,0.0,0.0,0.38636363636363635,positive
+'has amazingly clean restrooms fresh',0.4,0.2,0.0,0.20726416115936186,positive
+'just saw lovely interview with on bloomberg incredible success organically grown business smart and humble man inspirational',0.5263157894736842,0.10526315789473684,0.10526315789473684,1.3633426102324853,positive
+'good luck tomorrow jizzabel i hope you re surgery goes great and you get better real quick love you  ding',0.3333333333333333,0.09523809523809523,0.19047619047619047,1.5069701071533883,positive
+'s are the best we have had one for years and it still works like it s new exclamationmarkcharacter',0.15,0.05,0.2,0.27100536050198704,positive
+'by launching real time events and conversions reports out features mobile analytics google',0.15384615384615385,0.07692307692307693,0.07692307692307693,0.077448689761837,neutral
+'for is a necessary',0.16666666666666666,0.16666666666666666,0.0,0.32196969696969696,positive
+'life is the best',0.5,0.0,0.0,0.24352353175904384,positive
+'oh thats so awesome exclamationmarkcharacter',0.2,0.0,0.2,0.75,positive
+'the new  commercial has left audience swooning exclamationmarkcharacter',0.2222222222222222,0.1111111111111111,0.2222222222222222,0.047461874202110704,positive
+'trident original flavor gum is for savages',0.0,0.42857142857142855,0.14285714285714285,-0.12818101441866092,negative
+'came close twice to buying a  octavia very good cars indeed',0.25,0.0,0.16666666666666666,0.6864244303402367,positive
+'download  b pickup truck service repair manual',0.25,0.0,0.5,0.1916552971761189,neutral
+'practically most  articles about indian topics have mild ambimama feel',0.18181818181818182,0.09090909090909091,0.2727272727272727,0.2733210084253491,neutral
+'i really do love your fake  hoodie',0.2222222222222222,0.2222222222222222,0.1111111111111111,-0.1424718962798306,positive
+'help me get points my amazon gift card download this app on your  and input my invitation code a exclamationmarkcharacter',0.23809523809523808,0.0,0.14285714285714285,0.43029893030063326,neutral
+'no one understands how much i loveeeeeeeeeeee mickey mouse sweaters at forever exclamationmarkcharacter',0.07692307692307693,0.07692307692307693,0.15384615384615385,0.05197131414983866,positive
+'while you re suffering so am i the  i m in is playing awful awful slow jam christmas music',0.045454545454545456,0.22727272727272727,0.18181818181818182,-1.304722327789163,negative
+'impossible to find the link to the maschine update anywhere on site found it in the user forum',0.05555555555555555,0.05555555555555555,0.3888888888888889,-0.30328021701673463,negative
+'and subrcribe on youtube  to watch videos',0.0,0.0,0.125,0.0,neutral
+'bored i miss home emoteangpeg feelingsad sadspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.1,0.1,0.0,-0.09881814887306238,negative
+'stop this please',0.6666666666666666,0.0,0.0,0.30271028472904526,negative
+'hello i am a huge fan user and am excited for touch could i please ask you to sign the savesaeed petition c exclamationmarkcharacter',0.19230769230769232,0.07692307692307693,0.11538461538461539,0.26350405172212105,positive
+'my favorite gum any flavor as long as it s trident layers gum itemineedeveryday tridentlayers',0.06666666666666667,0.2,0.2,0.049450643338986716,positive
+'hey download the new social networking app on and  at',0.07692307692307693,0.07692307692307693,0.07692307692307693,0.126811875533268,neutral
+'fried rice sounds so good right now',0.375,0.0,0.25,0.5744449501029647,positive
+'hey it would mean the world if you could check out our music polarity ansem',0.26666666666666666,0.0,0.06666666666666667,0.21341094696047147,positive
+'get off all  software until january th',0.125,0.0,0.25,0.027290511698483122,neutral
+'whats the status of an update for its terrible at the moment questionmarkcharacter',0.07142857142857142,0.07142857142857142,0.14285714285714285,-0.6528065302804499,negative
+'yummm exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.0,0.0,0.0,0.0,positive
+'could potentially be the best restaurant i ve ever been to',0.21428571428571427,0.0,0.2857142857142857,0.31932241996503213,positive
+'shows that lost mio users in the us to since introduction of ',0.0625,0.0,0.125,0.013426953883354064,neutral
+'bloody hell  are closing all their uk stores dropinshares',0.0,0.18181818181818182,0.09090909090909091,-0.4663878303528409,negative
+'the fact that i am going back to is mind blowing',0.15384615384615385,0.0,0.15384615384615385,0.13180692232485233,positive
+'visualizing data for the retail enterprise with  lumira via',0.1,0.0,0.2,0.10500000000000001,neutral
+'a meat lovers pizza from  would be nice right now exclamationmarkcharacter',0.46153846153846156,0.0,0.15384615384615385,0.7610504091704807,positive
+'great photos thanks for adding more inspiration to the feed exclamationmarkcharacter',0.25,0.0,0.25,0.20240076518671923,positive
+'shut the fuck up',0.25,0.0,0.5,0.04024310118265441,negative
+'i m playing take on my available on the app store reflex',0.25,0.0625,0.1875,-0.2576550547911755,neutral
+'sounds like  heaven exclamationmarkcharacter exclamationmarkcharacter',0.0,0.0,0.16666666666666666,0.0,positive
+'worst thing about an  the constant need for batteries',0.1,0.3,0.0,-0.24739532121502844,negative
+'i ll be happy when i have a  in one hand and drugs in the other',0.23529411764705882,0.058823529411764705,0.0,0.42853155053663144,positive
+'i m horny for ',0.0,0.0,0.5,0.0,positive
+'just downloaded by on my golden iphone s love it',0.2727272727272727,0.0,0.09090909090909091,0.42527864490382666,positive
+'you can t possibly try and convince me is cool haha cmonbro hahahahaha',0.2,0.0,0.26666666666666666,0.2659936690215667,positive
+'i just earned the adventurer bonus at restaurant and bar in mytown',0.15384615384615385,0.0,0.3076923076923077,0.3016867633112045,neutral
+'i liked a video from the last of us livestream with wind d bill s town',0.058823529411764705,0.11764705882352941,0.23529411764705882,-0.1332217767323911,neutral
+'we love in this look don t you questionmarkcharacter',0.1111111111111111,0.1111111111111111,0.2222222222222222,0.24903168766159064,positive
+'coca cola launches consumer interaction centre via',0.14285714285714285,0.0,0.5714285714285714,0.006607624851683785,neutral
+'the new store  in the mall has nice dresses',0.2,0.0,0.2,0.6713238750236494,positive
+'i put a lot of work into this post please rt and read happyspecialcharacter',0.2857142857142857,0.07142857142857142,0.07142857142857142,0.5456489033077574,positive
+'i really hate that whole thing where i wind up waking up at whyyyyyyy happyspecialcharacter',0.3125,0.125,0.0,0.2868977364636782,negative
+'love my new  winter coat so warm',0.3333333333333333,0.1111111111111111,0.3333333333333333,0.4891311019893888,positive
+'thank you and it was one of the greatest experiences to work with the cheekyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.09523809523809523,0.0,0.09523809523809523,0.8853481023999236,positive
+'i want some  so bad right now',0.375,0.125,0.125,-0.23818184782726967,positive
+'so how do you know  questionmarkcharacter',0.125,0.125,0.125,0.02006486315339586,neutral
+'looking for a brand new mobile what about highly recommended questionmarkcharacter',0.2857142857142857,0.0,0.14285714285714285,0.6191817713184682,positive
+'iphone chargers break so fucking easily',0.3333333333333333,0.0,0.16666666666666666,0.18343918296326042,negative
+'consumers want a deal automarketing',0.2,0.0,0.2,0.04599211563731932,neutral
+'use this for ',0.25,0.0,0.0,0.011412910800850955,neutral
+'good stuff thanks for the  hello joe exclamationmarkcharacter exclamationmarkcharacter',0.2,0.1,0.0,0.4933898087000555,positive
+'thank you check out for great ict freebies many more exclamationmarkcharacter',0.18181818181818182,0.0,0.2727272727272727,0.12819675249249018,positive
+'i m driving in my',0.0,0.0,0.16666666666666666,0.0,neutral
+'is making me wait minutes for fresh chicken im gonna die',0.0,0.25,0.16666666666666666,-0.16866457656233905,negative
+'that  drink just mess my stomach up bg s or nah exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.18181818181818182,0.13636363636363635,0.045454545454545456,0.00588113012293752,negative
+'the  delights things from are soooo gooood',0.1,0.0,0.2,0.005960712191791387,positive
+'i liked a video from ',0.09090909090909091,0.18181818181818182,0.36363636363636365,0.01664585276941212,positive
+'how wonderful to opens ones curtains on that every morning xxx happyspecialcharacter exclamationmarkcharacter',0.07692307692307693,0.0,0.15384615384615385,0.75,positive
+'jon thinks i m jealous of his',0.0,0.0,0.25,0.0,neutral
+'is the best song ever lmao',0.125,0.0,0.25,0.24000000000000005,positive
+'finally got some domino s pizza exclamationmarkcharacter',0.0,0.0,0.5714285714285714,0.0,positive
+'about to start building another report here we go exclamationmarkcharacter',0.2,0.0,0.3,0.009186661580369404,neutral
+'i taste your  ohh that s lovely',0.25,0.0,0.125,0.6874818752528739,positive
+'you gotta know i ll never let you go gmc',0.2,0.2,0.0,-0.42794196247492666,neutral
+'bought a surface to assist in my studies fail again',0.09090909090909091,0.09090909090909091,0.18181818181818182,-0.14869901873936103,negative
+'brazil winter womens runway checks eightpointedstar stripes racingchecks houndstooth sawtooth',0.0,0.0,0.45454545454545453,0.0,neutral
+'kev is always hating on my bugatti',0.0,0.14285714285714285,0.0,-0.02299605781865966,negative
+'i heard you were drifting in a exclamationmarkcharacter',0.0,0.0,0.0,0.0,neutral
+'that uncool moment when you ask your parents a question you don t gite colorway on online at am est eastbay',0.09523809523809523,0.09523809523809523,0.09523809523809523,-0.8965595110631683,neutral
+'you only want a because i want it',0.2222222222222222,0.1111111111111111,0.0,0.0625270844097207,neutral
+'mmm the smell of doritos',0.0,0.0,0.2,0.0,positive
+'can you please please please update the ipad version questionmarkcharacter questionmarkcharacter questionmarkcharacter',0.25,0.0,0.16666666666666666,0.9000000000000001,neutral
+'happy anniv ya longlast terus y',0.16666666666666666,0.0,0.16666666666666666,0.4809458218549128,positive
+'all american game decisionday',0.0,0.3333333333333333,0.16666666666666666,-0.014922713237349977,neutral
+'hey i just lost a contest for an elgato do you guys know if there s anymore exclamationmarkcharacter questionmarkcharacter',0.15789473684210525,0.05263157894736842,0.15789473684210525,0.20811526282823667,neutral
+'gomen i mun was having a bit of a moment',0.1,0.1,0.0,-0.025213997530647903,neutral
+'this makes me sick to my stomach sadspecialcharacter',0.0,0.25,0.0,-0.33924475857456254,negative
+'papa john s father was italian and he created the recipe for papa johns so therefore i am eating real italian pizza',0.0,0.045454545454545456,0.5454545454545454,-0.019862246774649164,neutral
+'the hotel refused to serve me my morning cofee drink so i kicked the bowl of scrambled eggs to the ground',0.08695652173913043,0.13043478260869565,0.21739130434782608,-0.10719657505872583,neutral
+'express so many new arrivals go take a peek because today and tomorr via cheekyspecialcharacter exclamationmarkcharacter',0.3125,0.0,0.1875,0.3385747698898479,neutral
+'please x',0.5,0.0,0.5,0.30000000000000004,neutral
+'international numbers ee orange o ext have all been reported as not working even tho they previously were fixyourshit questionmarkcharacter',0.1,0.1,0.3,-0.8684772567261753,negative
+'float like a sting like a beemer cars',0.0,0.1111111111111111,0.1111111111111111,-0.4242424242424243,neutral
+'school dont deserve her nah sigh',0.14285714285714285,0.0,0.2857142857142857,0.625,neutral
+'she s a special kind of stupid exclamationmarkcharacter',0.125,0.125,0.25,-0.40477035632028185,negative
+'welcome to kristanni x s blog a the shade shock deevalentine read more im sorry i exclamationmarkcharacter',0.1111111111111111,0.16666666666666666,0.2222222222222222,0.11927317206242405,neutral
+'i literally can t believe that is closing where am i going to work what the hell exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter questionmarkcharacter',0.08695652173913043,0.043478260869565216,0.08695652173913043,-0.16530385410272022,neutral
+'while you have a wife i have no life sadspecialcharacter',0.3,0.0,0.1,0.10200365666103955,negative
+'this makes me sick to my stomach sadspecialcharacter',0.0,0.25,0.0,-0.33924475857456254,negative
+'followers unfollowers i didn t know it d be this simple get your daily stats via',0.1875,0.1875,0.125,-0.274003029667008,neutral
+'my bottle pink as fuck her pussy pink as fuck',0.0,0.2727272727272727,0.36363636363636365,-0.18818181818181823,negative
+'think i m addicted to and pot noodle not the healthiest diet',0.07142857142857142,0.2857142857142857,0.21428571428571427,-0.7620001719100394,negative
+'sorry my internet is hitting the shit so hard it might just shit a brick also is not responding correctly cheekyspecialcharacter',0.13043478260869565,0.21739130434782608,0.21739130434782608,-0.7620595362237861,negative
+'the other side of street view video',0.1111111111111111,0.3333333333333333,0.2222222222222222,-0.31095036452096253,neutral
+'tip do not put in sprite it tastes like ass',0.18181818181818182,0.18181818181818182,0.18181818181818182,-0.6313095920184845,negative
+'ew can t stand even hate the smell of it don t see why people love it so much am i a dickhead',0.16666666666666666,0.125,0.2916666666666667,-0.4934044915867269,negative
+'sale captainsale original vintage one by captainstore via',0.1111111111111111,0.2222222222222222,0.0,-0.09606032495642886,neutral
+'weekinreview chris beek the face of tailoring campaign modelnews modeldiary',0.0,0.1,0.1,-0.0038537849913225933,neutral
+'police arrest teen behind anti snitching',0.0,0.16666666666666666,0.5,-0.375,neutral
+'bout to make a gmail account i m so done with after this month of connection failure smh',0.10526315789473684,0.21052631578947367,0.15789473684210525,-0.41500413361300603,negative
+'i got football then drill team soo im not lls i aint been up abington in a minute',0.05555555555555555,0.05555555555555555,0.2777777777777778,-0.5847568988173456,neutral
+'i think is open right now',0.375,0.125,0.125,-0.024300041670647192,neutral
+'and from back home',0.16666666666666666,0.0,0.3333333333333333,0.010564078275962124,neutral
+'lol im sorry bae geeshhh exclamationmarkcharacter exclamationmarkcharacter',0.0,0.14285714285714285,0.0,-0.30762167125803497,neutral
+'with night time theme font size slider',0.25,0.25,0.25,-0.011409593402890716,neutral
+'more computer gaming nonsense experience uninstalled shadowplay and acted like it didn t it froze when i hit that button cheekyspecialcharacter',0.043478260869565216,0.0,0.30434782608695654,0.032007858013819265,neutral
+'my horse jess he s a boy btw caught a cold and i feel so sorry for him poor guy i can t ride him for a bit now damn sadspecialcharacter exclamationmarkcharacter',0.0625,0.21875,0.15625,-1.2763508454904804,neutral
+'i need to get a cheap dedicated linux laptop thinking of an old p linux cheekyspecialcharacter',0.11764705882352941,0.11764705882352941,0.23529411764705882,-0.1715090231352245,neutral
+'i have nooo idea where it would be i might have lost it during the day',0.3125,0.0,0.0,0.18160664558402587,neutral
+'in wv dems are vie for one senate noone is going for congress net result rep congress persons',0.0,0.0,0.42105263157894735,0.0,neutral
+'now i kind of feel like i should go to the on peachtree to see if courtney is still there lmao',0.13636363636363635,0.09090909090909091,0.09090909090909091,-0.14159252935177574,neutral
+'i m addicted to skittles and right now i just want them all the time',0.29411764705882354,0.0,0.23529411764705882,0.2739849927499589,positive
+'could be worse i was silly enough to put mine on the radiator ruined my pair of gp gloves expensive mistake cheekyspecialcharacter',0.21739130434782608,0.13043478260869565,0.08695652173913043,-0.6609829074593179,negative
+'didn t think could get any worse and then i see this looool what the actual',0.16666666666666666,0.1111111111111111,0.1111111111111111,-0.4395065718148595,negative
+'vimeo is a pain in the ass but i want oppas in hd',0.14285714285714285,0.07142857142857142,0.07142857142857142,-0.34410325717827617,negative
+'i m about to order some papa john s any pizza suggestions questionmarkcharacter',0.07692307692307693,0.0,0.38461538461538464,0.007888119860204237,neutral
+'oh btw i meant the one above his head',0.1111111111111111,0.0,0.0,0.003501933561066892,neutral
+'i hate pms please help me i m getin fat klo pms',0.15384615384615385,0.07692307692307693,0.3076923076923077,0.22857142857142865,negative
+'those new diamond supply co knit beanies and scarves are everything i ve ever wanted they make being this broke so much harder',0.13043478260869565,0.0,0.2608695652173913,0.2624544519789561,neutral
+'oh shit where you going now questionmarkcharacter',0.14285714285714285,0.14285714285714285,0.0,-0.14129793359208437,negative
+'when the worker spells my name merisa everytime tryharder sadspecialcharacter',0.07692307692307693,0.07692307692307693,0.07692307692307693,-0.38612668947979584,neutral
+'whoever decided to replace lime with green apple needs to be punched in the face so many times they can t see straight',0.16666666666666666,0.125,0.25,0.0844180822767642,negative
+'reading into fixed size maxmspjitter',0.42857142857142855,0.14285714285714285,0.0,-0.051379035585613575,neutral
+'the lost its horn nomorebeepbeep',0.16666666666666666,0.0,0.0,0.017616850738793873,neutral
+'at least they d still have comfort in knowing that uggs and yoga pants still exist',0.10526315789473684,0.2631578947368421,0.21052631578947367,-0.49967397157365684,neutral
+'q has your status as an ace helped you in your career a i d lie if i say it didn t it helped me a lot to wider my prof networks questionmarkcharacter',0.08823529411764706,0.08823529411764706,0.11764705882352941,-0.006255074158061867,neutral
+'so annoying rt di tlala screen rt cranberii omg why are these ads suddenly so big sadspecialcharacter exclamationmarkcharacter',0.05263157894736842,0.05263157894736842,0.21052631578947367,-0.44490839182859293,negative
+'it s getting harder and harder to act weird zippy the pinhead quotehich is why the only person i trust is myself',0.13636363636363635,0.13636363636363635,0.09090909090909091,0.16507316794885846,neutral
+'someone please bring an extra large pepperoni pizza from papa john s for me pretty please sadspecialcharacter questionmarkcharacter',0.16666666666666666,0.16666666666666666,0.3333333333333333,0.3395101605898302,neutral
+'im a not a dier sorry not sorry',0.0,0.4444444444444444,0.1111111111111111,-1.8652433425160702,neutral
+'toblerone in cadbury heroes that s just wrong it was bad enough creme egg twister being in there',0.1111111111111111,0.16666666666666666,0.16666666666666666,-0.7740686020602258,negative
+'what a surprise criminals are not on being shot either that s why the cops carry guns right exclamationmarkcharacter questionmarkcharacter',0.23809523809523808,0.047619047619047616,0.047619047619047616,-0.41323137664922144,neutral
+'there s plastic floating in my friend s unopened iced tea bottle get ur shit together',0.125,0.125,0.5,-0.5560128408713958,negative
+'taking a diff approach and catching what s coming out of combine',0.07142857142857142,0.07142857142857142,0.21428571428571427,-0.003787586671402398,neutral
+'damn man what happened to that toonie tuesday meal sadspecialcharacter',0.1,0.1,0.2,-0.24652559629344498,neutral
+'clubs rocketbladez pw aw irons stiff steel mint philippines filipino',0.0,0.08333333333333333,0.5,-0.13018796798933327,neutral
+'newbury case for apple iphone and s',0.1111111111111111,0.0,0.2222222222222222,0.0043209304623644616,neutral
+'study links popular herbicide to amphibian death opinion the university of south florida',0.21428571428571427,0.14285714285714285,0.42857142857142855,-0.2549218039048566,neutral
+'i forgot to unwrap a before eating it now it is stuck in my throat causing me to have trouble breathing',0.09090909090909091,0.045454545454545456,0.09090909090909091,-0.11160905637454605,negative
+'mine was a sadspecialcharacter',0.0,0.14285714285714285,0.42857142857142855,-0.34579998239224113,negative
+'back home time to grind till march bears olympic louisvuitton windycitysole',0.16666666666666666,0.16666666666666666,0.16666666666666666,-0.1243041167518488,neutral
+'papa john s system went berserk so i get free pizza and a minute wait time missing the bears packers game though sacrifices',0.13043478260869565,0.13043478260869565,0.30434782608695654,-0.16987045311208093,neutral
+'i really don t feel like going up to this school at',0.16666666666666666,0.08333333333333333,0.25,0.37406947757264186,neutral
+'the fact i bought a michael kors wristlet a phone case a north face and scarves for is still unreal to me mykindofshopping',0.08695652173913043,0.13043478260869565,0.17391304347826086,-0.3948707417499623,neutral
+'iwanted them laneys bitch ass sold out',0.0,0.1111111111111111,0.3333333333333333,-0.2828282828282829,negative
+'whenever does askagent i always feel like the one who does not know how to ask askseder',0.11764705882352941,0.17647058823529413,0.0,-0.6330931697103833,neutral
+'i feel better now that i have my exclamationmarkcharacter',0.3,0.1,0.0,0.6204778103805237,positive
+'is open hours that s weird questionmarkcharacter',0.0,0.375,0.125,-0.5620491924013067,neutral
+'but like i ve literally been on the website for the past hour looking at pretty things wishing i had money saturdaynight',0.0,0.045454545454545456,0.22727272727272727,-0.125,positive
+'had a nightmare that i was stuck in the rain with my slippers not proud of where my priorities lie',0.09523809523809523,0.09523809523809523,0.047619047619047616,-0.519090909090909,neutral
+'gma fan favorite voting has opened and protected by under armour is in of the categories show',0.21052631578947367,0.10526315789473684,0.05263157894736842,0.08944797869791118,neutral
+'the feeling is mutual',0.0,0.25,0.25,-0.014225714672808563,neutral
+'goodnight text to reach byeee xx',0.16666666666666666,0.0,0.3333333333333333,0.12244897959183675,neutral
+'chillin closing the fuck out of dairy queen',0.125,0.0,0.25,0.018497693275733567,negative
+'rocking all green outfits the butter look like suck my sons dick',0.0,0.23076923076923078,0.15384615384615385,-0.18987402223964936,negative
+'they released a fix for that',0.0,0.16666666666666666,0.0,-0.17674288118950765,neutral
+'opening a was a big mistake toblergone',0.125,0.125,0.0,-0.35399930091950205,neutral
+'segas disappointing more than just sonic fans now sadspecialcharacter',0.2222222222222222,0.1111111111111111,0.2222222222222222,-0.6826649505487061,negative
+'im fucking pissed at nike for not making v comprehensive we all could have monotone versions of our favorite sneakers',0.09523809523809523,0.09523809523809523,0.09523809523809523,-0.6287902405793051,negative
+'no cause you hate me for no reason',0.125,0.25,0.0,-0.1910521521708465,negative
+'that s a lot of oxy but that s why you can t go hahah that sucks lol drink dr pepper',0.09523809523809523,0.047619047619047616,0.19047619047619047,0.002473404404867128,negative
+'oh shit well never drinking again exclamationmarkcharacter exclamationmarkcharacter',0.1,0.2,0.4,-0.36018448919118684,negative
+'dats y its uber i hate the idea of bringing dm into tl',0.07142857142857142,0.14285714285714285,0.14285714285714285,-0.5587146099629674,negative
+'and im feeling even better',0.3333333333333333,0.16666666666666666,0.0,0.5718448449378971,positive
+'pizza overload off large pizzas papa john s',0.125,0.125,0.5,-0.004525491707350601,neutral
+'domino s on central entrance worst customer service ever',0.0,0.1111111111111111,0.7777777777777778,-0.5,negative
+'face it i mugged you off',0.0,0.16666666666666666,0.0,-0.0038537849913225933,negative
+'never sucks',0.0,0.25,0.5,-0.4583333333333333,negative
+'keep your friends close and your charger closer',0.2222222222222222,0.2222222222222222,0.1111111111111111,0.15768677876164577,neutral
+'fuck dunkin donuts',0.0,0.0,0.3333333333333333,0.0,negative
+'does your kids carry kids roshes',0.125,0.0,0.25,0.001228959768834835,neutral
+'rt nope that must have been a fluke not working again now yep pic tagging not wrking sadspecialcharacter',0.15789473684210525,0.10526315789473684,0.10526315789473684,-1.1297041608772813,negative
+'my stomach hurts cuz i ate one trillion and drank a lot of coke',0.0,0.13333333333333333,0.13333333333333333,-0.029345531598242023,neutral
+'i will look into this new google custom url thing',0.2,0.2,0.2,0.2884108924722882,neutral
+'going jem again tmr cause the shoes i bought at got prob need exchange hehe',0.0,0.23529411764705882,0.23529411764705882,-0.17068088695879627,neutral
+'i want a right now exclamationmarkcharacter',0.3,0.2,0.2,0.02125077467083681,positive
+'cc please can anyone know any site i can download foreign music and videos',0.21428571428571427,0.07142857142857142,0.14285714285714285,0.2443222446544661,neutral
+'embarrassed about your mobile want a new  shop now exclamationmarkcharacter questionmarkcharacter',0.26666666666666666,0.06666666666666667,0.26666666666666666,-0.08588064598551148,positive
+' app is now available at repository',0.25,0.0,0.25,0.19564828614008944,neutral
+'on the train hell ya',0.0,0.16666666666666666,0.16666666666666666,-0.25805449701950756,positive
+'i would love some',0.14285714285714285,0.14285714285714285,0.2857142857142857,0.20074595158177866,positive
+'check out my new review of the absolutely delicious  exclamationmarkcharacter',0.45454545454545453,0.0,0.0,1.2216755034286304,positive
+'i love the  there good looking',0.25,0.0,0.25,0.7417213248144794,positive
+'this cranberry  is good bet it d be better with some vodka',0.23076923076923078,0.15384615384615385,0.23076923076923078,0.915547779303278,positive
+' trying to replace  mobile operating system',0.2,0.1,0.3,-0.19699764211293525,neutral
+'dresses are wayy to expensive cheekyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter',0.1,0.0,0.1,0.5,negative
+'i applied at  today exclamationmarkcharacter',0.14285714285714285,0.0,0.2857142857142857,0.06818181818181819,neutral
+'i can t believe you had the nerve to even say that',0.25,0.0,0.16666666666666666,0.08905462251396802,negative
+'i love your stuff specially your exclamationmarkcharacter',0.1111111111111111,0.1111111111111111,0.2222222222222222,0.2334743940461827,positive
+'grape and strawberry  are the best',0.14285714285714285,0.0,0.2857142857142857,0.24000000000000005,positive
+'talks more about the updates',0.0,0.0,0.42857142857142855,0.0,neutral
+'there are lots of people on twitter who i think would be really cool to get to know and  with',0.2857142857142857,0.047619047619047616,0.19047619047619047,0.3355930461013059,positive
+'so freaking pissed at',0.0,0.0,0.25,0.0,negative
+'don t even like  i thought i was the only one',0.15384615384615385,0.07692307692307693,0.3076923076923077,-0.013033789200684365,negative
+'wendy s best fast food restaurant sorrynotsorry',0.14285714285714285,0.14285714285714285,0.42857142857142855,0.22500000000000003,positive
+'superb uk mobile deals u are just a click away fantastic selection of  phones top offers fb exclamationmarkcharacter exclamationmarkcharacter',0.25,0.1,0.15,0.9240827197419993,positive
+'awesome  lightbox plugins',0.25,0.0,0.0,0.75,positive
+'looking for a fantastic laptop it s got to be  notebook computer visit now exclamationmarkcharacter questionmarkcharacter',0.17647058823529413,0.0,0.35294117647058826,0.2905629926064989,positive
+'chocolate is the besttt',0.0,0.0,0.16666666666666666,0.0,positive
+' and  are my favourite shops',0.14285714285714285,0.0,0.0,0.11363636363636363,positive
+'cold months are painful for me as i have to drive company with the windows down to avoid death by methane for the next driver',0.07692307692307693,0.19230769230769232,0.15384615384615385,-0.9756682951195429,neutral
+'your personal tarot psychic adviser is now available for minute ppm reading',0.46153846153846156,0.07692307692307693,0.15384615384615385,0.4168008257709574,neutral
+'jackets are the shit',0.0,0.3333333333333333,0.16666666666666666,-0.1608000047234964,negative
+'wish was open',0.25,0.25,0.0,0.05640810787417555,positive
+'believe it or not i bought them at back in they were on sale too if i recall correctly exclamationmarkcharacter',0.13636363636363635,0.09090909090909091,0.18181818181818182,-0.36317569077565326,neutral
+'for brunch aaarghhh laziness baby lol',0.0,0.14285714285714285,0.2857142857142857,-0.018248175182481754,neutral
+'left my beanie on the light and that shit melted it smells like burning flesh in here now cand gifboom',0.1,0.05,0.2,-0.1104619133392494,neutral
+'h m is going to open a new mega store in timesquare',0.08333333333333333,0.16666666666666666,0.16666666666666666,-0.11075490204463842,neutral
+'drink fucked me over',0.3333333333333333,0.16666666666666666,0.0,0.02448017344822764,negative
+'just because you change your commercials doesn t mean mean i still don t hate them trying to trick me smh',0.18181818181818182,0.13636363636363635,0.13636363636363635,-0.25903480025033654,negative
+'for women s ice maiden lace cold weather boot',0.0,0.45454545454545453,0.36363636363636365,-0.7317345016918858,neutral
+'my baby going for a car wash colt',0.1111111111111111,0.0,0.3333333333333333,0.125,neutral
+'i just remembered i stocked up on so i don t have to wait for the store to open fuck yes exclamationmarkcharacter',0.16666666666666666,0.08333333333333333,0.25,-0.005705029172240861,positive
+'why the hell has microsoft got rid of quick tabs in fail wish i could ask someone why cheekyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter questionmarkcharacter',0.08,0.08,0.16,-0.2062750699633739,negative
+'how long does it take to fry chicken stupid',0.1,0.2,0.2,-0.4481652588728082,negative
+'i don t have wi fi at home until like next week this is gonna suck dick',0.11764705882352941,0.058823529411764705,0.29411764705882354,0.03707686799968728,negative
+'bring back the wicked chicken sincerely popeyes employee',0.0,0.5,0.25,-0.36027548833954415,positive
+'just ordered myself a case',0.42857142857142855,0.0,0.0,0.30600769377356896,neutral
+'ate at capps and kings last might idkhowifeelaboutthat fat',0.0,0.08333333333333333,0.3333333333333333,-0.08946453789955423,neutral
+'sad day for the a f family a f has announced closure of all stores by sad but not surprising what',0.043478260869565216,0.17391304347826086,0.08695652173913043,-2.065052623095748,negative
+'no worries pop us a dm with your order deets and we can get on the case exclamationmarkcharacter',0.16666666666666666,0.05555555555555555,0.05555555555555555,-0.3014095288880391,neutral
+'and i m off to the races cases of chasers chasing me all over tooownnnnn',0.0,0.0,0.0625,0.0,neutral
+'lol rt the worst way to get rejected exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.18181818181818182,0.09090909090909091,0.0,-0.4699139547104199,negative
+'i m one hundred and ten million percent in love with ',0.15384615384615385,0.0,0.15384615384615385,0.33181204598939423,positive
+'rt thanks again you re an awesome company hope to work with you guys on something again soon keep up the happyspecialcharacter',0.22727272727272727,0.09090909090909091,0.18181818181818182,0.7861152692146722,positive
+'i only like nothing else',0.0,0.125,0.5,-0.029457146864917943,positive
+'omg the new  shoes look sickk',0.14285714285714285,0.14285714285714285,0.14285714285714285,0.11597628171452751,negative
+'if i had the money now that i think about it i would buy a  id give it to people in need',0.13043478260869565,0.08695652173913043,0.13043478260869565,0.0660684180044627,neutral
+'good luck',0.6666666666666666,0.0,0.3333333333333333,0.5080910970069034,positive
+'ben and jerry s core is possibly the best discovery winning exclamationmarkcharacter',0.3333333333333333,0.0,0.25,0.45799778436571703,positive
+'new job senior  developer in london united kingdom job',0.16666666666666666,0.25,0.25,0.2971000400448686,neutral
+'is truly awesome exclamationmarkcharacter',0.5,0.0,0.0,1.022108843537415,positive
+'challenges dominance in schools with for education now shipping socialmedia',0.2,0.0,0.4,0.1882441579142855,neutral
+'forever and always in love with  dresses',0.1111111111111111,0.1111111111111111,0.2222222222222222,0.2406341699889164,positive
+'wrong way challenge crooked up bigspin out and up kickflip out industrialpark',0.3333333333333333,0.16666666666666666,0.0,-0.5056643168347407,neutral
+'i think i m addicted to times in the last day sorrynotsorry',0.2857142857142857,0.07142857142857142,0.14285714285714285,0.2385920007886189,positive
+'can bob the builder fix my grades tho can he questionmarkcharacter questionmarkcharacter',0.0,0.08333333333333333,0.25,-0.17674288118950765,neutral
+'was the shit',0.0,0.16666666666666666,0.5,-0.1569462197321738,positive
+'it was hairy dave s karen not hardy row but all sorted it seems feel for',0.0625,0.25,0.125,-0.7130018227518881,neutral
+'obsession attracts cheetahs tigers and jaguarsdammit calvin your stuff attracts the wrong kind of pussy',0.0,0.17647058823529413,0.35294117647058826,-0.532201564390355,negative
+'peach is gross too kiwi strawberry is the shit lol',0.09090909090909091,0.2727272727272727,0.18181818181818182,-0.20536735506160217,negative
+'fuckin night',0.0,0.3333333333333333,0.3333333333333333,-0.010273826538335128,negative
+'is a death trap remember that',0.125,0.375,0.0,-0.058601327661721034,negative
+'wwwooowww they are awesome can i have one happyspecialcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter questionmarkcharacter',0.15384615384615385,0.0,0.0,0.7992400624509979,positive
+'stupid  and stupid ',0.0,0.4,0.2,-0.8700000000000001,negative
+'great talking to you earlier love what you guys are doing to push  keep me posted exclamationmarkcharacter exclamationmarkcharacter',0.15,0.05,0.1,0.37250379702305847,positive
+'i couldn t find any resources on this try posting on and a moderator will assist further klm',0.1111111111111111,0.05555555555555555,0.16666666666666666,0.03793474089974242,neutral
+'i want a nice auburn sweatshirt from',0.2857142857142857,0.0,0.14285714285714285,0.5867411688004558,positive
+'congratulations jose rosas you re in the top century agents in the region',0.13333333333333333,0.2,0.13333333333333333,0.8680934593964996,positive
+'sitting pretty in my volvo',0.0,0.2,0.0,-0.125,neutral
+'god sucks nuts pos',0.2,0.0,0.0,0.016069788797061526,negative
+'blue smells fucking bomb i would but that for my boyfriend if i had one',0.0,0.125,0.0625,-0.1712926128879788,positive
+'ok it s so fucking annoying that there s always a problem when i m suppose to do something like nothing can ever go the way it s suppose to',0.13333333333333333,0.13333333333333333,0.3,-0.7231229962146669,negative
+'i m afraid it ll be rainy croydon tomorrow morning exclamationmarkcharacter',0.08333333333333333,0.16666666666666666,0.16666666666666666,-0.5177987921561801,neutral
+'voteaustinmahone yeekeekthe songnsddmatb street lights by achand flips austreams skittles pizza',0.08333333333333333,0.0,0.25,0.009641873278236917,neutral
+'thankfully doesn t make jets only bad cars but voxeljet vjet making new highs into analyst coverage on quiet period d bubble questionmarkcharacter',0.125,0.25,0.125,-0.5438312010083405,negative
+'i m addicted to orezi s this is your fault',0.0,0.09090909090909091,0.18181818181818182,-0.3000924192929634,positive
+'netflix i dare your ass to backwards one more time so help me god me n will eat your fucking face off',0.2608695652173913,0.043478260869565216,0.21739130434782608,0.35928259770140425,negative
+'sbux starbucks to restate results issue debt for billion payme stock stocks sbux',0.14285714285714285,0.0,0.2857142857142857,0.0381408515137312,neutral
+'is so fucking nasty',0.0,0.2,0.2,-0.5303030303030304,negative
+'days like today i love my  perfect',0.375,0.0,0.125,0.7077244547485183,positive
+'it was that fuckin',0.0,0.0,0.3333333333333333,0.0,negative
+'what about  questionmarkcharacter',0.0,0.0,0.0,0.0,neutral
+'avast is like the lyrics of your favorite song it sticks with you all day and you want to hear it again tbt',0.13043478260869565,0.0,0.13043478260869565,0.17669264449910288,positive
+'chrome isn t working help me',0.16666666666666666,0.0,0.5,0.1785714285714286,neutral
+'do you think that self development is an advantageous journey questionmarkcharacter',0.18181818181818182,0.09090909090909091,0.2727272727272727,0.5562986831890646,neutral
+'the best ben jerry s icecream incredible exclamationmarkcharacter',0.25,0.0,0.5,0.36500000000000005,positive
+'can t wait to get my free pair of',0.2,0.1,0.3,0.04773867645585735,positive
+'hating myself for going on the  website so upset nobody talk to me',0.0,0.13333333333333333,0.2,-0.526285583103765,negative
+'s new loaner program lets developers borrow its smartphones for one month for free m g',0.0625,0.0625,0.375,0.10281362022670257,neutral
+'thanks for retweeting x exclamationmarkcharacter',0.2,0.0,0.2,0.04545454545454546,positive
+'makes big india investment',0.2,0.0,0.4,0.05509160817140707,neutral
+'s o to the motherfucker that ate my  i hope you burn in hell',0.06666666666666667,0.2,0.13333333333333333,-0.8553347350458407,negative
+'have you guys tried the iced tea half lemonade it s so fucking good exclamationmarkcharacter questionmarkcharacter',0.1111111111111111,0.05555555555555555,0.3333333333333333,0.40233115945790127,positive
+'i usually don t mind sharing but if you touch my damn  i m cursing your ass out exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.041666666666666664,0.08333333333333333,0.25,-0.1460093463801478,negative
+'your so crazy perfect and awh words do not explain how thankful i am thank you so much sweetheart cheekyspecialcharacter',0.21052631578947367,0.21052631578947367,0.15789473684210525,-0.055573380042138895,positive
+'prescription lenses coming in january first muggings leaving victims unable to see expected in feb cheekyspecialcharacter',0.05555555555555555,0.05555555555555555,0.3333333333333333,-0.5172515138680458,neutral
+'what is the purpose of a store that doesn t actually deal machinary just clothes and toys the most pointless store in malls questionmarkcharacter',0.07692307692307693,0.07692307692307693,0.3076923076923077,-0.32300910043575415,negative
+'something is wrong with you',0.0,0.2,0.0,-0.4338639124471435,negative
+'hate tasting apple flavoring in my c mon i know others dislike this flavor exclamationmarkcharacter exclamationmarkcharacter',0.125,0.1875,0.25,-0.43329682808565373,negative
+'monster isn t an energy drink its a laxative sadspecialcharacter',0.2,0.2,0.2,-0.4755198265517724,negative
+'believe it or not actually have some historical relevance',0.3,0.1,0.2,-0.3154376890029412,neutral
+'cheez it snack mix may be the most addicting thing on this planet',0.07692307692307693,0.07692307692307693,0.3076923076923077,0.02773105669681871,positive
+'taco bells bites are the shit',0.0,0.14285714285714285,0.14285714285714285,-0.1569462197321738,positive
+'blues fans will ove this blue fragrance for men order now exclamationmarkcharacter exclamationmarkcharacter',0.21428571428571427,0.14285714285714285,0.07142857142857142,0.015122580991102742,positive
+'is there a way to reach a live person to chat about a customer service issue you phone number doesn t let me hold questionmarkcharacter',0.2,0.12,0.24,-0.03871985038070671,neutral
+'dogs never bite me just humans marilyn monroe',0.125,0.25,0.25,-0.5852179985935574,neutral
+'owners travelling vanity case art deco s s rare superb soap',0.3333333333333333,0.16666666666666666,0.3333333333333333,0.3206083912699903,positive
+'sucks donkey dicks',0.4,0.0,0.2,0.19750268691950162,negative
+'rt if u hate and cri evrytime',0.0,0.2,0.1,-0.653197547087166,negative
+'bitch i don t wear  s',0.0,0.375,0.375,-0.4032662390326624,negative
+'dresses are just absolutely gorgeous exclamationmarkcharacter',0.375,0.0,0.0,1.1653231269475681,positive
+'download  rl service and repair manual',0.0,0.0,0.42857142857142855,0.0,neutral
+'hmmmm  sounds good or maybe subway cheekyspecialcharacter',0.1111111111111111,0.0,0.4444444444444444,0.4780910970069034,positive
+'our beautiful ',0.3333333333333333,0.0,0.0,0.7083333333333334,positive
+'my brother s just gave me some  i think i may cry my most favorite exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter exclamationmarkcharacter',0.22727272727272727,0.0,0.09090909090909091,0.2359542785223565,positive
+'a shop has opened at the bottom of the flat that sells lipton s iced tea hello type two diabetes',0.05,0.1,0.2,0.022999137160032088,neutral
+'when looking for better internet placement you want an seo on top of  or for the service right questionmarkcharacter',0.14285714285714285,0.047619047619047616,0.19047619047619047,0.7037964380515915,neutral
+' dresses are absolutely perfect omg i m in love with them all',0.2,0.0,0.2,1.0031790002030636,positive
+' are the best ones',0.16666666666666666,0.16666666666666666,0.0,0.08745179063360883,positive
+'i fucking hate  exclamationmarkcharacter',0.3333333333333333,0.16666666666666666,0.0,0.002795533591096986,negative
+'lol you know i love you too',0.2857142857142857,0.14285714285714285,0.0,0.21803412964892965,positive
+' mar is really good',0.3333333333333333,0.0,0.16666666666666666,0.8396613449407877,positive
